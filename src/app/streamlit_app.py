@@ -479,7 +479,7 @@ with left:
 
         st.markdown('<div class="robot-frame">', unsafe_allow_html=True)
 
-        st.image(img, use_container_width=True)
+        st.image(img, use_column_width=True)
 
         st.markdown('</div>', unsafe_allow_html=True)
 
@@ -1122,7 +1122,7 @@ with left:
 
         st.markdown('<div class="robot-frame">', unsafe_allow_html=True)
 
-        st.image(img, use_container_width=True)
+        st.image(img, use_column_width=True)
 
         st.markdown('</div>', unsafe_allow_html=True)
 
