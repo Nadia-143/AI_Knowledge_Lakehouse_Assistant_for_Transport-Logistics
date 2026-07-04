@@ -1,384 +1,1286 @@
 import streamlit as st
+
 from pathlib import Path
-import pandas as pd
 
-# =========================================================
-# Page Configuration
-# =========================================================
+import html
+
 st.set_page_config(
-   page_title="AI Knowledge Lakehouse Assistant",
-   page_icon="🚚",
-   layout="wide"
+
+    page_title="AI Knowledge Lakehouse Assistant",
+
+    page_icon="🤖",
+
+    layout="wide"
+
 )
 
-# =========================================================
-# Theme Colors
-# عدلي الألوان من هنا فقط إذا تبين تغيرينها
-# =========================================================
-PRIMARY = "#12355B"      # Dark navy
-SECONDARY = "#1F6F8B"    # Teal blue
-BACKGROUND = "#F7F9FC"   # Light background
-CARD = "#FFFFFF"
-ACCENT = "#D4AF37"       # Gold accent
-TEXT = "#1F2933"
-MUTED = "#667085"
+# =========================
 
-# =========================================================
-# Custom Styling
-# =========================================================
-st.markdown(
-   f"""
+# CSS THEME
+
+# =========================
+
+st.markdown("""
 <style>
-       .stApp {{
-           background-color: {BACKGROUND};
-       }}
-       .hero {{
-           background: linear-gradient(135deg, {PRIMARY}, {SECONDARY});
-           padding: 38px 30px;
-           border-radius: 24px;
-           color: white;
-           text-align: center;
-           margin-bottom: 28px;
-           box-shadow: 0px 8px 24px rgba(18,53,91,0.22);
-       }}
-       .hero h1 {{
-           font-size: 42px;
-           font-weight: 800;
-           margin-bottom: 10px;
-       }}
-       .hero p {{
-           font-size: 18px;
-           margin: 0;
-           opacity: 0.95;
-       }}
-       .center-image {{
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           margin: 12px 0 28px 0;
-       }}
-       .section-title {{
-           color: {PRIMARY};
-           font-size: 25px;
-           font-weight: 800;
-           margin-top: 22px;
-           margin-bottom: 14px;
-           border-left: 6px solid {ACCENT};
-           padding-left: 12px;
-       }}
-       .card {{
-           background-color: {CARD};
-           padding: 24px;
-           border-radius: 18px;
-           box-shadow: 0px 5px 18px rgba(0,0,0,0.07);
-           border: 1px solid #edf0f5;
-           margin-bottom: 18px;
-           color: {TEXT};
-       }}
-       .metric-card {{
-           background-color: {CARD};
-           padding: 22px 16px;
-           border-radius: 18px;
-           text-align: center;
-           box-shadow: 0px 5px 16px rgba(0,0,0,0.07);
-           border-top: 5px solid {SECONDARY};
-           min-height: 120px;
-       }}
-       .metric-card h3 {{
-           color: {PRIMARY};
-           margin-bottom: 8px;
-           font-size: 24px;
-       }}
-       .metric-card p {{
-           color: {MUTED};
-           font-size: 14px;
-           margin: 0;
-       }}
-       .team-box {{
-           background-color: {CARD};
-           padding: 24px;
-           border-radius: 18px;
-           box-shadow: 0px 5px 18px rgba(0,0,0,0.07);
-           border: 1px solid #edf0f5;
-       }}
-       .team-member {{
-           background: linear-gradient(90deg, #eef5fb, #ffffff);
-           padding: 13px 16px;
-           border-radius: 14px;
-           margin: 9px 0;
-           font-weight: 700;
-           color: {PRIMARY};
-           border-left: 5px solid {ACCENT};
-       }}
-       .answer-box {{
-           background-color: {CARD};
-           padding: 22px;
-           border-radius: 18px;
-           border-left: 6px solid {SECONDARY};
-           box-shadow: 0px 5px 16px rgba(0,0,0,0.07);
-           margin-top: 14px;
-           color: {TEXT};
-       }}
-       .small-note {{
-           color: {MUTED};
-           font-size: 14px;
-           text-align: center;
-       }}
-       div[data-testid="stAlert"] {{
-           border-radius: 14px;
-       }}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+* {
+
+    font-family: 'Inter', sans-serif;
+
+}
+
+.stApp {
+
+    background:
+
+        radial-gradient(circle at top left, rgba(0,255,220,0.18), transparent 28%),
+
+        radial-gradient(circle at bottom right, rgba(0,120,255,0.18), transparent 30%),
+
+        linear-gradient(135deg, #050b18 0%, #07162a 45%, #040914 100%);
+
+    color: white;
+
+}
+
+.block-container {
+
+    padding-top: 1.4rem;
+
+    padding-bottom: 2rem;
+
+}
+
+.top-title {
+
+    text-align: center;
+
+    margin-bottom: 26px;
+
+}
+
+.top-title h1 {
+
+    font-size: 48px;
+
+    font-weight: 900;
+
+    margin-bottom: 8px;
+
+    color: #ffffff;
+
+    text-shadow: 0 0 22px rgba(0,255,220,0.25);
+
+}
+
+.top-title p {
+
+    font-size: 16px;
+
+    color: #9fdde7;
+
+    margin: 0;
+
+}
+
+.glow-card {
+
+    background: rgba(8, 22, 42, 0.88);
+
+    border: 1px solid rgba(70,255,230,0.24);
+
+    border-radius: 26px;
+
+    padding: 24px;
+
+    box-shadow:
+
+        0 16px 40px rgba(0,0,0,0.38),
+
+        inset 0 0 24px rgba(0,255,220,0.03);
+
+    backdrop-filter: blur(10px);
+
+    margin-bottom: 18px;
+
+}
+
+.neon-card {
+
+    background:
+
+        linear-gradient(145deg, rgba(10,30,55,0.95), rgba(5,13,26,0.98));
+
+    border: 1px solid rgba(69,255,229,0.38);
+
+    border-radius: 30px;
+
+    padding: 22px;
+
+    box-shadow:
+
+        0 0 34px rgba(0,255,220,0.12),
+
+        0 14px 34px rgba(0,0,0,0.40);
+
+    margin-bottom: 18px;
+
+}
+
+.section-title {
+
+    color: #67fff0;
+
+    font-weight: 800;
+
+    font-size: 19px;
+
+    margin: 8px 0 12px 0;
+
+    letter-spacing: .2px;
+
+}
+
+.robot-frame {
+
+    background:
+
+        radial-gradient(circle at center, rgba(79,255,232,0.20), transparent 48%),
+
+        linear-gradient(180deg, rgba(9,26,48,0.95), rgba(4,12,25,0.98));
+
+    border: 1px solid rgba(98,255,235,0.32);
+
+    border-radius: 32px;
+
+    padding: 14px;
+
+    box-shadow: 0 0 40px rgba(0,255,220,0.14);
+
+}
+
+.answer-box {
+
+    background: rgba(4, 14, 28, 0.98);
+
+    border: 1px solid rgba(89,255,232,0.42);
+
+    border-left: 6px solid #58f5de;
+
+    border-radius: 22px;
+
+    padding: 22px;
+
+    min-height: 210px;
+
+    color: #effdff;
+
+    line-height: 1.7;
+
+    box-shadow: 0 0 28px rgba(0,255,220,0.10);
+
+}
+
+.question-box {
+
+    background: rgba(7, 20, 38, 0.92);
+
+    border: 1px solid rgba(89,255,232,0.30);
+
+    border-radius: 26px;
+
+    padding: 24px;
+
+    box-shadow: 0 16px 36px rgba(0,0,0,0.32);
+
+}
+
+.team-box {
+
+    background: rgba(7, 20, 38, 0.82);
+
+    border: 1px solid rgba(89,255,232,0.24);
+
+    border-radius: 24px;
+
+    padding: 18px;
+
+}
+
+.team-chip {
+
+    display: block;
+
+    background: linear-gradient(90deg, rgba(88,245,222,0.16), rgba(57,196,255,0.10));
+
+    border: 1px solid rgba(88,245,222,0.25);
+
+    border-radius: 999px;
+
+    padding: 11px 15px;
+
+    color: white;
+
+    font-weight: 700;
+
+    margin-bottom: 10px;
+
+}
+
+.kpi {
+
+    background: rgba(8, 22, 42, 0.86);
+
+    border: 1px solid rgba(70,255,230,0.22);
+
+    border-radius: 20px;
+
+    padding: 16px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+
+}
+
+.kpi h3 {
+
+    color: #58f5de;
+
+    margin: 0;
+
+    font-size: 24px;
+
+}
+
+.kpi p {
+
+    color: #a7cbd7;
+
+    margin: 5px 0 0 0;
+
+    font-size: 13px;
+
+}
+
+.small-text {
+
+    color: #b7d7e0;
+
+    font-size: 14px;
+
+    line-height: 1.65;
+
+}
+
+.stTextArea textarea {
+
+    background-color: #06162b !important;
+
+    color: #ffffff !important;
+
+    border: 1px solid rgba(88,245,222,0.55) !important;
+
+    border-radius: 18px !important;
+
+    min-height: 180px !important;
+
+}
+
+.stButton button {
+
+    background: linear-gradient(90deg, #58f5de, #39c4ff) !important;
+
+    color: #04101e !important;
+
+    border: 0 !important;
+
+    border-radius: 999px !important;
+
+    font-weight: 900 !important;
+
+    padding: 0.75rem 1.8rem !important;
+
+    width: 100%;
+
+    box-shadow: 0 10px 22px rgba(0,255,220,0.20);
+
+}
+
+.stButton button:hover {
+
+    transform: scale(1.01);
+
+}
+
+hr {
+
+    border: none;
+
+    border-top: 1px solid rgba(88,245,222,0.18);
+
+}
+
+.footer {
+
+    text-align: center;
+
+    color: #6fa6b8;
+
+    font-size: 13px;
+
+    margin-top: 22px;
+
+}
 </style>
-   """,
-   unsafe_allow_html=True
-)
 
-# =========================================================
-# Helper Functions
-# =========================================================
-def safe_read_csv(path: str):
-   file_path = Path(path)
-   if file_path.exists():
-       try:
-           return pd.read_csv(file_path)
-       except Exception:
-           return None
-   return None
+""", unsafe_allow_html=True)
 
-def find_project_image():
-   possible_paths = [
-       "src/app/ai-assistant-cover.png",
-       "assets/project_cover.jpg",
-       "assets/architecture.png",
-       "assets/architecture.jpg",
-       "outputs/screenshots/architecture.png",
-       "outputs/screenshots/project_cover.png",
-   ]
-   for path in possible_paths:
-       if Path(path).exists():
-           return path
-   return None
 
-def generate_local_answer(question: str) -> str:
-   if not question.strip():
-       return "Please enter a question about the transport and logistics data platform."
-   try:
-       from src.rag import query_engine
-       possible_functions = [
-           "answer_question",
-           "ask",
-           "query",
-           "run_query",
-           "generate_answer",
-       ]
-       for func_name in possible_functions:
-           if hasattr(query_engine, func_name):
-               func = getattr(query_engine, func_name)
-               response = func(question)
-               return str(response)
-   except Exception:
-       pass
-   return f"""
-This assistant is designed to answer questions about the AI Knowledge Lakehouse for Transport & Logistics.
-Your question was:
-**{question}**
-The platform includes synthetic logistics data generation, lakehouse processing, data quality validation, RAG indexing, and an AI assistant interface.
+# =========================
+
+# HELPERS
+
+# =========================
+
+def find_image():
+
+    paths = [
+
+        "src/app/ai-assistant-cover.png",
+
+        "src/app/ai-assistant-cover.jpg",
+
+        "src/app/assistant.png",
+
+        "assets/project_cover.png",
+
+        "outputs/screenshots/project_cover.png",
+
+    ]
+
+    for p in paths:
+
+        if Path(p).exists():
+
+            return p
+
+    return None
+
+
+def get_answer(question: str) -> str:
+
+    if not question.strip():
+
+        return "Type your question in the box on the right, then click Ask Assistant."
+
+    try:
+
+        from src.rag import query_engine
+
+        for fn in ["answer_question", "ask", "query", "run_query", "generate_answer"]:
+
+            if hasattr(query_engine, fn):
+
+                return str(getattr(query_engine, fn)(question))
+
+    except Exception:
+
+        pass
+
+    return f"""AI Assistant Response
+
+Question:
+
+{question}
+
+This platform supports questions about:
+
+• Transport and logistics KPIs
+
+• Lakehouse Bronze, Silver, and Gold layers
+
+• Data quality checks
+
+• SLA indicators
+
+• RAG retrieval and AI-generated insights
+
 """
 
-# =========================================================
-# Header
-# =========================================================
-st.markdown(
-   """
-<div class="hero">
-<h1>🚚 AI Knowledge Lakehouse Assistant</h1>
-<p>Integrated AI Data Platform for Transport & Logistics</p>
-</div>
-   """,
-   unsafe_allow_html=True
-)
 
-# =========================================================
-# Centered Project Image
-# =========================================================
-image_path = find_project_image()
-if image_path:
-   left, center, right = st.columns([1, 2, 1])
-   with center:
-       st.image(
-           image_path,
-           caption="Project Architecture / Cover",
-           use_container_width=True
-       )
-else:
-   st.markdown(
-       """
-<div class="card" style="text-align:center;">
-<h3>📌 Project Image</h3>
-<p class="small-note">
-               Add your image here:<br><br>
-<b>src/app/ai-assistant-cover.png</b><br>
-               or<br>
-<b>outputs/screenshots/architecture.png</b>
+# =========================
+
+# STATE
+
+# =========================
+
+if "answer" not in st.session_state:
+
+    st.session_state.answer = "The assistant response will appear here."
+
+# =========================
+
+# HEADER
+
+# =========================
+
+st.markdown("""
+<div class="top-title">
+<h1>AI Knowledge Lakehouse Assistant</h1>
+<p>Transport & Logistics Intelligent Data Platform</p>
+</div>
+
+""", unsafe_allow_html=True)
+
+# =========================
+
+# KPI ROW
+
+# =========================
+
+k1, k2, k3, k4 = st.columns(4)
+
+with k1:
+
+    st.markdown('<div class="kpi"><h3>Bronze</h3><p>Raw Data</p></div>', unsafe_allow_html=True)
+
+with k2:
+
+    st.markdown('<div class="kpi"><h3>Silver</h3><p>Clean Data</p></div>', unsafe_allow_html=True)
+
+with k3:
+
+    st.markdown('<div class="kpi"><h3>Gold</h3><p>KPI Layer</p></div>', unsafe_allow_html=True)
+
+with k4:
+
+    st.markdown('<div class="kpi"><h3>RAG</h3><p>AI Search</p></div>', unsafe_allow_html=True)
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+# =========================
+
+# MAIN LAYOUT
+
+# =========================
+
+left, right = st.columns([1.15, 1])
+
+with left:
+
+    st.markdown('<div class="section-title">AI Assistant Visual</div>', unsafe_allow_html=True)
+
+    img = find_image()
+
+    if img:
+
+        st.markdown('<div class="robot-frame">', unsafe_allow_html=True)
+
+        st.image(img, use_container_width=True)
+
+        st.markdown('</div>', unsafe_allow_html=True)
+
+    else:
+
+        st.markdown("""
+<div class="neon-card">
+<div style="font-size:80px;text-align:center;">🤖</div>
+<p class="small-text" style="text-align:center;">
+
+                Add image as: <b>src/app/ai-assistant-cover.png</b>
 </p>
 </div>
-       """,
-       unsafe_allow_html=True
-   )
 
-# =========================================================
-# Project Overview
-# =========================================================
-st.markdown('<div class="section-title">Project Overview</div>', unsafe_allow_html=True)
-st.markdown(
-   """
-<div class="card">
-<p>
-           This project builds an integrated AI data platform for the transport and logistics sector.
-           It combines synthetic data generation, lakehouse architecture, data quality validation,
-           RAG-based retrieval, and an interactive AI assistant interface.
-</p>
-<p>
-           The platform simulates an enterprise-ready environment where logistics data can be ingested,
-           processed, validated, indexed, and queried through an intelligent assistant.
-</p>
-</div>
-   """,
-   unsafe_allow_html=True
-)
+        """, unsafe_allow_html=True)
 
-# =========================================================
-# Platform Components
-# =========================================================
-st.markdown('<div class="section-title">Platform Components</div>', unsafe_allow_html=True)
-m1, m2, m3, m4 = st.columns(4)
-with m1:
-   st.markdown(
-       """
-<div class="metric-card">
-<h3>Bronze</h3>
-<p>Raw Data Layer</p>
-</div>
-       """,
-       unsafe_allow_html=True
-   )
-with m2:
-   st.markdown(
-       """
-<div class="metric-card">
-<h3>Silver</h3>
-<p>Cleaned Data Layer</p>
-</div>
-       """,
-       unsafe_allow_html=True
-   )
-with m3:
-   st.markdown(
-       """
-<div class="metric-card">
-<h3>Gold</h3>
-<p>Analytics Layer</p>
-</div>
-       """,
-       unsafe_allow_html=True
-   )
-with m4:
-   st.markdown(
-       """
-<div class="metric-card">
-<h3>RAG</h3>
-<p>AI Retrieval Layer</p>
-</div>
-       """,
-       unsafe_allow_html=True
-   )
+    st.markdown('<div class="section-title">Assistant Answer</div>', unsafe_allow_html=True)
 
-# =========================================================
-# Team Members
-# =========================================================
-st.markdown('<div class="section-title">Team Members</div>', unsafe_allow_html=True)
-st.markdown(
-   """
-<div class="team-box">
-<div class="team-member">Nadia Alghamdi</div>
-<div class="team-member">Ebtisam Alzahrani </div>
-<div class="team-member">Manar Almutair</div>
-</div>
-   """,
-   unsafe_allow_html=True
-)
+    safe_answer = html.escape(st.session_state.answer).replace("\n", "<br>")
 
-# =========================================================
-# Data Preview
-# =========================================================
-st.markdown('<div class="section-title">Data Preview</div>', unsafe_allow_html=True)
-data_files = [
-   "data/raw/shipments.csv",
-   "data/processed/cleaned_logistics_data.csv",
-   "data/gold/gold_logistics_kpis.csv",
-   "data/catalog/indicator_catalog.csv",
-   "data/catalog/sla_catalog.csv",
-]
-selected_df = None
-selected_file = None
-for file in data_files:
-   df = safe_read_csv(file)
-   if df is not None:
-       selected_df = df
-       selected_file = file
-       break
-if selected_df is not None:
-   st.caption(f"Preview from: `{selected_file}`")
-   st.dataframe(selected_df.head(10), use_container_width=True)
-else:
-st.info("Data preview will appear here after running the data generation and lakehouse pipeline.")
-
-# =========================================================
-# AI Assistant
-# =========================================================
-st.markdown('<div class="section-title">AI Logistics Assistant</div>', unsafe_allow_html=True)
-st.markdown(
-   """
-<div class="card">
-<p>
-           Ask a question about transport, logistics, SLA performance, data quality,
-           lakehouse layers, or logistics indicators.
-</p>
-</div>
-   """,
-   unsafe_allow_html=True
-)
-question = st.text_input(
-   "Enter your question",
-   placeholder="Example: What are the main logistics KPIs in this platform?"
-)
-if st.button("Ask Assistant"):
-   answer = generate_local_answer(question)
-   st.markdown(
-       f"""
+    st.markdown(f"""
 <div class="answer-box">
-<h4>Assistant Response</h4>
-<p>{answer}</p>
-</div>
-       """,
-       unsafe_allow_html=True
-   )
 
-# =========================================================
-# Execution Status
-# =========================================================
-st.markdown('<div class="section-title">Execution Status</div>', unsafe_allow_html=True)
-st.success("Application interface loaded successfully.")
-st.info("Execution flow: tests → data generation → lakehouse pipeline → quality checks → RAG index → Streamlit app.")
-
-# =========================================================
-# Footer
-# =========================================================
-st.markdown(
-   """
-<br>
-<div class="small-note">
-       AI Knowledge Lakehouse Assistant for Transport & Logistics — Final Project Demo
+        {safe_answer}
 </div>
-   """,
-   unsafe_allow_html=True
+
+    """, unsafe_allow_html=True)
+
+    st.markdown('<div class="section-title">Team Members</div>', unsafe_allow_html=True)
+
+    st.markdown("""
+<div class="team-box">
+<div class="team-chip">Nadia Alghamdi</div>
+<div class="team-chip">Ebtisam Alzahrani</div>
+<div class="team-chip">Manar ALmutairi</div>
+
+</div>
+
+    """, unsafe_allow_html=True)
+
+with right:
+
+    st.markdown('<div class="section-title">Ask the Assistant</div>', unsafe_allow_html=True)
+
+    st.markdown("""
+<div class="question-box">
+<p class="small-text">
+
+            Ask about logistics indicators, data sources, SLA performance,
+
+            lakehouse layers, or AI retrieval results.
+</p>
+</div>
+
+    """, unsafe_allow_html=True)
+
+    question = st.text_area(
+
+        "Question",
+
+        placeholder="Example: What are the main logistics KPIs in this project?",
+
+        label_visibility="collapsed",
+
+        height=210
+
+    )
+
+    if st.button("Ask Assistant"):
+
+        st.session_state.answer = get_answer(question)
+
+        st.rerun()
+
+    st.markdown('<div class="section-title">Project Overview</div>', unsafe_allow_html=True)
+
+    st.markdown("""
+<div class="glow-card">
+<p class="small-text">
+
+            This project integrates synthetic logistics data, schema validation,
+
+            lakehouse processing, data quality checks, RAG indexing,
+
+            and an interactive AI assistant interface.
+</p>
+</div>
+
+    """, unsafe_allow_html=True)
+
+    st.markdown('<div class="section-title">Execution Flow</div>', unsafe_allow_html=True)
+
+    st.markdown("""
+<div class="glow-card">
+<p class="small-text">
+
+            1. Generate synthetic transport data<br>
+
+            2. Validate schema and quality rules<br>
+
+            3. Process Bronze, Silver, and Gold layers<br>
+
+            4. Build RAG index<br>
+
+            5. Query through AI assistant
+</p>
+</div>
+
+    """, unsafe_allow_html=True)
+
+# =========================
+
+# AVAILABLE SOURCES
+
+# =========================
+
+st.markdown('<div class="section-title">Available Sources</div>', unsafe_allow_html=True)
+
+files = [
+
+    "data/raw/shipments.csv",
+
+    "data/raw/ports_operations.csv",
+
+    "data/raw/rail_trips.csv",
+
+    "data/raw/road_incidents.csv",
+
+    "data/raw/passengers.csv",
+
+    "data/catalog/transport_kpi_catalog.csv",
+
+    "data/catalog/sla_templates.csv",
+
+]
+
+existing = [f for f in files if Path(f).exists()]
+
+if existing:
+
+    src_html = "<br>".join([f"• {f}" for f in existing])
+
+else:
+
+    src_html = "Source files will appear here after running the pipeline."
+
+st.markdown(f"""
+<div class="glow-card">
+<p class="small-text">{src_html}</p>
+</div>
+
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="footer">
+
+    AI Knowledge Lakehouse Assistant for Transport & Logistics — Final Project Demo
+</div>
+
+""", unsafe_allow_html=True)
+ 
+import streamlit as st
+
+from pathlib import Path
+
+import html
+
+st.set_page_config(
+
+    page_title="AI Knowledge Lakehouse Assistant",
+
+    page_icon="🤖",
+
+    layout="wide"
+
 )
+
+# =========================
+
+# CSS THEME
+
+# =========================
+
+st.markdown("""
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+* {
+
+    font-family: 'Inter', sans-serif;
+
+}
+
+.stApp {
+
+    background:
+
+        radial-gradient(circle at top left, rgba(0,255,220,0.18), transparent 28%),
+
+        radial-gradient(circle at bottom right, rgba(0,120,255,0.18), transparent 30%),
+
+        linear-gradient(135deg, #050b18 0%, #07162a 45%, #040914 100%);
+
+    color: white;
+
+}
+
+.block-container {
+
+    padding-top: 1.4rem;
+
+    padding-bottom: 2rem;
+
+}
+
+.top-title {
+
+    text-align: center;
+
+    margin-bottom: 26px;
+
+}
+
+.top-title h1 {
+
+    font-size: 48px;
+
+    font-weight: 900;
+
+    margin-bottom: 8px;
+
+    color: #ffffff;
+
+    text-shadow: 0 0 22px rgba(0,255,220,0.25);
+
+}
+
+.top-title p {
+
+    font-size: 16px;
+
+    color: #9fdde7;
+
+    margin: 0;
+
+}
+
+.glow-card {
+
+    background: rgba(8, 22, 42, 0.88);
+
+    border: 1px solid rgba(70,255,230,0.24);
+
+    border-radius: 26px;
+
+    padding: 24px;
+
+    box-shadow:
+
+        0 16px 40px rgba(0,0,0,0.38),
+
+        inset 0 0 24px rgba(0,255,220,0.03);
+
+    backdrop-filter: blur(10px);
+
+    margin-bottom: 18px;
+
+}
+
+.neon-card {
+
+    background:
+
+        linear-gradient(145deg, rgba(10,30,55,0.95), rgba(5,13,26,0.98));
+
+    border: 1px solid rgba(69,255,229,0.38);
+
+    border-radius: 30px;
+
+    padding: 22px;
+
+    box-shadow:
+
+        0 0 34px rgba(0,255,220,0.12),
+
+        0 14px 34px rgba(0,0,0,0.40);
+
+    margin-bottom: 18px;
+
+}
+
+.section-title {
+
+    color: #67fff0;
+
+    font-weight: 800;
+
+    font-size: 19px;
+
+    margin: 8px 0 12px 0;
+
+    letter-spacing: .2px;
+
+}
+
+.robot-frame {
+
+    background:
+
+        radial-gradient(circle at center, rgba(79,255,232,0.20), transparent 48%),
+
+        linear-gradient(180deg, rgba(9,26,48,0.95), rgba(4,12,25,0.98));
+
+    border: 1px solid rgba(98,255,235,0.32);
+
+    border-radius: 32px;
+
+    padding: 14px;
+
+    box-shadow: 0 0 40px rgba(0,255,220,0.14);
+
+}
+
+.answer-box {
+
+    background: rgba(4, 14, 28, 0.98);
+
+    border: 1px solid rgba(89,255,232,0.42);
+
+    border-left: 6px solid #58f5de;
+
+    border-radius: 22px;
+
+    padding: 22px;
+
+    min-height: 210px;
+
+    color: #effdff;
+
+    line-height: 1.7;
+
+    box-shadow: 0 0 28px rgba(0,255,220,0.10);
+
+}
+
+.question-box {
+
+    background: rgba(7, 20, 38, 0.92);
+
+    border: 1px solid rgba(89,255,232,0.30);
+
+    border-radius: 26px;
+
+    padding: 24px;
+
+    box-shadow: 0 16px 36px rgba(0,0,0,0.32);
+
+}
+
+.team-box {
+
+    background: rgba(7, 20, 38, 0.82);
+
+    border: 1px solid rgba(89,255,232,0.24);
+
+    border-radius: 24px;
+
+    padding: 18px;
+
+}
+
+.team-chip {
+
+    display: block;
+
+    background: linear-gradient(90deg, rgba(88,245,222,0.16), rgba(57,196,255,0.10));
+
+    border: 1px solid rgba(88,245,222,0.25);
+
+    border-radius: 999px;
+
+    padding: 11px 15px;
+
+    color: white;
+
+    font-weight: 700;
+
+    margin-bottom: 10px;
+
+}
+
+.kpi {
+
+    background: rgba(8, 22, 42, 0.86);
+
+    border: 1px solid rgba(70,255,230,0.22);
+
+    border-radius: 20px;
+
+    padding: 16px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+
+}
+
+.kpi h3 {
+
+    color: #58f5de;
+
+    margin: 0;
+
+    font-size: 24px;
+
+}
+
+.kpi p {
+
+    color: #a7cbd7;
+
+    margin: 5px 0 0 0;
+
+    font-size: 13px;
+
+}
+
+.small-text {
+
+    color: #b7d7e0;
+
+    font-size: 14px;
+
+    line-height: 1.65;
+
+}
+
+.stTextArea textarea {
+
+    background-color: #06162b !important;
+
+    color: #ffffff !important;
+
+    border: 1px solid rgba(88,245,222,0.55) !important;
+
+    border-radius: 18px !important;
+
+    min-height: 180px !important;
+
+}
+
+.stButton button {
+
+    background: linear-gradient(90deg, #58f5de, #39c4ff) !important;
+
+    color: #04101e !important;
+
+    border: 0 !important;
+
+    border-radius: 999px !important;
+
+    font-weight: 900 !important;
+
+    padding: 0.75rem 1.8rem !important;
+
+    width: 100%;
+
+    box-shadow: 0 10px 22px rgba(0,255,220,0.20);
+
+}
+
+.stButton button:hover {
+
+    transform: scale(1.01);
+
+}
+
+hr {
+
+    border: none;
+
+    border-top: 1px solid rgba(88,245,222,0.18);
+
+}
+
+.footer {
+
+    text-align: center;
+
+    color: #6fa6b8;
+
+    font-size: 13px;
+
+    margin-top: 22px;
+
+}
+</style>
+
+""", unsafe_allow_html=True)
+
+
+# =========================
+
+# HELPERS
+
+# =========================
+
+def find_image():
+
+    paths = [
+
+        "src/app/ai-assistant-cover.png",
+
+        "src/app/ai-assistant-cover.jpg",
+
+        "src/app/assistant.png",
+
+        "assets/project_cover.png",
+
+        "outputs/screenshots/project_cover.png",
+
+    ]
+
+    for p in paths:
+
+        if Path(p).exists():
+
+            return p
+
+    return None
+
+
+def get_answer(question: str) -> str:
+
+    if not question.strip():
+
+        return "Type your question in the box on the right, then click Ask Assistant."
+
+    try:
+
+        from src.rag import query_engine
+
+        for fn in ["answer_question", "ask", "query", "run_query", "generate_answer"]:
+
+            if hasattr(query_engine, fn):
+
+                return str(getattr(query_engine, fn)(question))
+
+    except Exception:
+
+        pass
+
+    return f"""AI Assistant Response
+
+Question:
+
+{question}
+
+This platform supports questions about:
+
+• Transport and logistics KPIs
+
+• Lakehouse Bronze, Silver, and Gold layers
+
+• Data quality checks
+
+• SLA indicators
+
+• RAG retrieval and AI-generated insights
+
+"""
+
+
+# =========================
+
+# STATE
+
+# =========================
+
+if "answer" not in st.session_state:
+
+    st.session_state.answer = "The assistant response will appear here."
+
+# =========================
+
+# HEADER
+
+# =========================
+
+st.markdown("""
+<div class="top-title">
+<h1>AI Knowledge Lakehouse Assistant</h1>
+<p>Transport & Logistics Intelligent Data Platform</p>
+</div>
+
+""", unsafe_allow_html=True)
+
+# =========================
+
+# KPI ROW
+
+# =========================
+
+k1, k2, k3, k4 = st.columns(4)
+
+with k1:
+
+    st.markdown('<div class="kpi"><h3>Bronze</h3><p>Raw Data</p></div>', unsafe_allow_html=True)
+
+with k2:
+
+    st.markdown('<div class="kpi"><h3>Silver</h3><p>Clean Data</p></div>', unsafe_allow_html=True)
+
+with k3:
+
+    st.markdown('<div class="kpi"><h3>Gold</h3><p>KPI Layer</p></div>', unsafe_allow_html=True)
+
+with k4:
+
+    st.markdown('<div class="kpi"><h3>RAG</h3><p>AI Search</p></div>', unsafe_allow_html=True)
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+# =========================
+
+# MAIN LAYOUT
+
+# =========================
+
+left, right = st.columns([1.15, 1])
+
+with left:
+
+    st.markdown('<div class="section-title">AI Assistant Visual</div>', unsafe_allow_html=True)
+
+    img = find_image()
+
+    if img:
+
+        st.markdown('<div class="robot-frame">', unsafe_allow_html=True)
+
+        st.image(img, use_container_width=True)
+
+        st.markdown('</div>', unsafe_allow_html=True)
+
+    else:
+
+        st.markdown("""
+<div class="neon-card">
+<div style="font-size:80px;text-align:center;">🤖</div>
+<p class="small-text" style="text-align:center;">
+
+                Add image as: <b>src/app/ai-assistant-cover.png</b>
+</p>
+</div>
+
+        """, unsafe_allow_html=True)
+
+    st.markdown('<div class="section-title">Assistant Answer</div>', unsafe_allow_html=True)
+
+    safe_answer = html.escape(st.session_state.answer).replace("\n", "<br>")
+
+    st.markdown(f"""
+<div class="answer-box">
+
+        {safe_answer}
+</div>
+
+    """, unsafe_allow_html=True)
+
+    st.markdown('<div class="section-title">Team Members</div>', unsafe_allow_html=True)
+
+    st.markdown("""
+<div class="team-box">
+<div class="team-chip">Nadia Alghamdi</div>
+<div class="team-chip">Name 2</div>
+<div class="team-chip">Name 3</div>
+<div class="team-chip">Name 4</div>
+</div>
+
+    """, unsafe_allow_html=True)
+
+with right:
+
+    st.markdown('<div class="section-title">Ask the Assistant</div>', unsafe_allow_html=True)
+
+    st.markdown("""
+<div class="question-box">
+<p class="small-text">
+
+            Ask about logistics indicators, data sources, SLA performance,
+
+            lakehouse layers, or AI retrieval results.
+</p>
+</div>
+
+    """, unsafe_allow_html=True)
+
+    question = st.text_area(
+
+        "Question",
+
+        placeholder="Example: What are the main logistics KPIs in this project?",
+
+        label_visibility="collapsed",
+
+        height=210
+
+    )
+
+    if st.button("Ask Assistant"):
+
+        st.session_state.answer = get_answer(question)
+
+        st.rerun()
+
+    st.markdown('<div class="section-title">Project Overview</div>', unsafe_allow_html=True)
+
+    st.markdown("""
+<div class="glow-card">
+<p class="small-text">
+
+            This project integrates synthetic logistics data, schema validation,
+
+            lakehouse processing, data quality checks, RAG indexing,
+
+            and an interactive AI assistant interface.
+</p>
+</div>
+
+    """, unsafe_allow_html=True)
+
+    st.markdown('<div class="section-title">Execution Flow</div>', unsafe_allow_html=True)
+
+    st.markdown("""
+<div class="glow-card">
+<p class="small-text">
+
+            1. Generate synthetic transport data<br>
+
+            2. Validate schema and quality rules<br>
+
+            3. Process Bronze, Silver, and Gold layers<br>
+
+            4. Build RAG index<br>
+
+            5. Query through AI assistant
+</p>
+</div>
+
+    """, unsafe_allow_html=True)
+
+# =========================
+
+# AVAILABLE SOURCES
+
+# =========================
+
+st.markdown('<div class="section-title">Available Sources</div>', unsafe_allow_html=True)
+
+files = [
+
+    "data/raw/shipments.csv",
+
+    "data/raw/ports_operations.csv",
+
+    "data/raw/rail_trips.csv",
+
+    "data/raw/road_incidents.csv",
+
+    "data/raw/passengers.csv",
+
+    "data/catalog/transport_kpi_catalog.csv",
+
+    "data/catalog/sla_templates.csv",
+
+]
+
+existing = [f for f in files if Path(f).exists()]
+
+if existing:
+
+    src_html = "<br>".join([f"• {f}" for f in existing])
+
+else:
+
+    src_html = "Source files will appear here after running the pipeline."
+
+st.markdown(f"""
+<div class="glow-card">
+<p class="small-text">{src_html}</p>
+</div>
+
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="footer">
+
+    AI Knowledge Lakehouse Assistant for Transport & Logistics — Final Project Demo
+</div>
+
+""", unsafe_allow_html=True)
+ 
