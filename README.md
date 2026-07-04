@@ -1,6 +1,6 @@
 # AI Knowledge Lakehouse Assistant for Transport & Logistics
 
-منصة ذكاء اصطناعي مؤسسية مستوحاة من NotebookLM لقطاع النقل والخدمات اللوجستية، ومصممة لتغطية متطلبات الـ Capstone بنسبة 100%.
+منصة ذكاء اصطناعي مؤسسية مستوحاة من otebookLM لقطاع النقل والخدمات اللوجستية.
 
 ## Rubric Coverage
 
