@@ -46,7 +46,9 @@ python src/ingestion/kafka_consumer_to_bronze.py --topic logistics.shipments
 ```
 
 ## AI Assistant Streamlit & some Demo Questions
-(assets/assistant-preview.png)[واجهة المساعد الذكي]!
+<p align ="center">
+   <img = src="assets/assistant-preview.png" alt = "واجهة المساعد الذكي" width = "850"
+</p>
 
 - ما هو SLA الخاص بتحديث بيانات الشحنات؟
 - ما هي مؤشرات النقل البحري الموجودة في الكتالوج؟
