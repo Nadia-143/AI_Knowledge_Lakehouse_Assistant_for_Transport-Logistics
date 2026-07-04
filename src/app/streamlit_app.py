@@ -146,7 +146,7 @@ def safe_read_csv(path: str):
 
 def find_project_image():
    possible_paths = [
-       "assets/project_cover.png",
+       "src/app/ai-assistant-cover.png",
        "assets/project_cover.jpg",
        "assets/architecture.png",
        "assets/architecture.jpg",
@@ -216,7 +216,7 @@ else:
 <h3>📌 Project Image</h3>
 <p class="small-note">
                Add your image here:<br><br>
-<b>assets/project_cover.png</b><br>
+<b>src/app/ai-assistant-cover.png</b><br>
                or<br>
 <b>outputs/screenshots/architecture.png</b>
 </p>
@@ -300,9 +300,8 @@ st.markdown(
    """
 <div class="team-box">
 <div class="team-member">Nadia Alghamdi</div>
-<div class="team-member">Name 2</div>
-<div class="team-member">Name 3</div>
-<div class="team-member">Name 4</div>
+<div class="team-member">Ebtisam Alzahrani </div>
+<div class="team-member">Manar Almutair</div>
 </div>
    """,
    unsafe_allow_html=True
