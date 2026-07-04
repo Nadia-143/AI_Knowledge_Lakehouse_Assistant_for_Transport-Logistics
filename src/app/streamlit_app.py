@@ -12,68 +12,121 @@ st.set_page_config(
 )
 
 # =========================================================
+# Theme Colors
+# عدلي الألوان من هنا فقط إذا تبين تغيرينها
+# =========================================================
+PRIMARY = "#12355B"      # Dark navy
+SECONDARY = "#1F6F8B"    # Teal blue
+BACKGROUND = "#F7F9FC"   # Light background
+CARD = "#FFFFFF"
+ACCENT = "#D4AF37"       # Gold accent
+TEXT = "#1F2933"
+MUTED = "#667085"
+
+# =========================================================
 # Custom Styling
 # =========================================================
 st.markdown(
-   """
+   f"""
 <style>
-       .stApp {
-           background-color: #f7f9fc;
-       }
-       .main-header {
-           background: linear-gradient(90deg, #12355B, #1F6F8B);
-           padding: 32px;
-           border-radius: 18px;
+       .stApp {{
+           background-color: {BACKGROUND};
+       }}
+       .hero {{
+           background: linear-gradient(135deg, {PRIMARY}, {SECONDARY});
+           padding: 38px 30px;
+           border-radius: 24px;
            color: white;
            text-align: center;
-           margin-bottom: 25px;
-           box-shadow: 0px 4px 18px rgba(0,0,0,0.12);
-       }
-       .main-header h1 {
-           font-size: 40px;
-           margin-bottom: 8px;
-       }
-       .main-header p {
+           margin-bottom: 28px;
+           box-shadow: 0px 8px 24px rgba(18,53,91,0.22);
+       }}
+       .hero h1 {{
+           font-size: 42px;
+           font-weight: 800;
+           margin-bottom: 10px;
+       }}
+       .hero p {{
            font-size: 18px;
            margin: 0;
            opacity: 0.95;
-       }
-       .card {
-           background-color: white;
-           padding: 22px;
-           border-radius: 16px;
-           box-shadow: 0px 4px 14px rgba(0,0,0,0.08);
+       }}
+       .center-image {{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin: 12px 0 28px 0;
+       }}
+       .section-title {{
+           color: {PRIMARY};
+           font-size: 25px;
+           font-weight: 800;
+           margin-top: 22px;
+           margin-bottom: 14px;
+           border-left: 6px solid {ACCENT};
+           padding-left: 12px;
+       }}
+       .card {{
+           background-color: {CARD};
+           padding: 24px;
+           border-radius: 18px;
+           box-shadow: 0px 5px 18px rgba(0,0,0,0.07);
+           border: 1px solid #edf0f5;
            margin-bottom: 18px;
-           border: 1px solid #edf0f5;
-       }
-       .metric-card {
-           background-color: #ffffff;
-           padding: 18px;
-           border-radius: 14px;
+           color: {TEXT};
+       }}
+       .metric-card {{
+           background-color: {CARD};
+           padding: 22px 16px;
+           border-radius: 18px;
            text-align: center;
-           box-shadow: 0px 3px 12px rgba(0,0,0,0.07);
-           border: 1px solid #edf0f5;
-       }
-       .team-member {
-           background-color: #eef5fb;
-           padding: 12px 16px;
-           border-radius: 12px;
-           margin: 8px 0;
-           font-weight: 600;
-           color: #12355B;
-       }
-       .small-note {
-           color: #5f6f7f;
+           box-shadow: 0px 5px 16px rgba(0,0,0,0.07);
+           border-top: 5px solid {SECONDARY};
+           min-height: 120px;
+       }}
+       .metric-card h3 {{
+           color: {PRIMARY};
+           margin-bottom: 8px;
+           font-size: 24px;
+       }}
+       .metric-card p {{
+           color: {MUTED};
            font-size: 14px;
-       }
-       .answer-box {
-           background-color: #ffffff;
-           padding: 20px;
+           margin: 0;
+       }}
+       .team-box {{
+           background-color: {CARD};
+           padding: 24px;
+           border-radius: 18px;
+           box-shadow: 0px 5px 18px rgba(0,0,0,0.07);
+           border: 1px solid #edf0f5;
+       }}
+       .team-member {{
+           background: linear-gradient(90deg, #eef5fb, #ffffff);
+           padding: 13px 16px;
            border-radius: 14px;
-           border-left: 5px solid #1F6F8B;
-           box-shadow: 0px 3px 12px rgba(0,0,0,0.06);
-           margin-top: 12px;
-       }
+           margin: 9px 0;
+           font-weight: 700;
+           color: {PRIMARY};
+           border-left: 5px solid {ACCENT};
+       }}
+       .answer-box {{
+           background-color: {CARD};
+           padding: 22px;
+           border-radius: 18px;
+           border-left: 6px solid {SECONDARY};
+           box-shadow: 0px 5px 16px rgba(0,0,0,0.07);
+           margin-top: 14px;
+           color: {TEXT};
+       }}
+       .small-note {{
+           color: {MUTED};
+           font-size: 14px;
+           text-align: center;
+       }}
+       div[data-testid="stAlert"] {{
+           border-radius: 14px;
+       }}
 </style>
    """,
    unsafe_allow_html=True
@@ -83,7 +136,6 @@ st.markdown(
 # Helper Functions
 # =========================================================
 def safe_read_csv(path: str):
-   """Read CSV safely without showing red error blocks on the UI."""
    file_path = Path(path)
    if file_path.exists():
        try:
@@ -93,11 +145,11 @@ def safe_read_csv(path: str):
    return None
 
 def find_project_image():
-   """Find a suitable project image if available."""
    possible_paths = [
        "assets/project_cover.png",
        "assets/project_cover.jpg",
        "assets/architecture.png",
+       "assets/architecture.jpg",
        "outputs/screenshots/architecture.png",
        "outputs/screenshots/project_cover.png",
    ]
@@ -107,13 +159,8 @@ def find_project_image():
    return None
 
 def generate_local_answer(question: str) -> str:
-   """
-   Try to use the project RAG engine if available.
-   If not available, return a clean demo response without showing red errors.
-   """
    if not question.strip():
        return "Please enter a question about the transport and logistics data platform."
-   # Try common function names from the RAG query engine
    try:
        from src.rag import query_engine
        possible_functions = [
@@ -130,17 +177,11 @@ def generate_local_answer(question: str) -> str:
                return str(response)
    except Exception:
        pass
-   # Clean fallback answer for demo purposes
    return f"""
 This assistant is designed to answer questions about the AI Knowledge Lakehouse for Transport & Logistics.
 Your question was:
 **{question}**
-The platform includes:
-- Synthetic logistics data generation
-- Lakehouse processing across Bronze, Silver, and Gold layers
-- Data quality validation using Great Expectations
-- RAG indexing and retrieval
-- AI assistant interface for logistics insights
+The platform includes synthetic logistics data generation, lakehouse processing, data quality validation, RAG indexing, and an AI assistant interface.
 """
 
 # =========================================================
@@ -148,7 +189,7 @@ The platform includes:
 # =========================================================
 st.markdown(
    """
-<div class="main-header">
+<div class="hero">
 <h1>🚚 AI Knowledge Lakehouse Assistant</h1>
 <p>Integrated AI Data Platform for Transport & Logistics</p>
 </div>
@@ -157,42 +198,27 @@ st.markdown(
 )
 
 # =========================================================
-# Project Overview + Image
+# Centered Project Image
 # =========================================================
-col1, col2 = st.columns([1, 1.7])
-with col1:
-   image_path = find_project_image()
-   if image_path:
-       st.image(image_path, caption="Project Architecture / Cover", use_container_width=True)
-   else:
-       st.markdown(
-           """
-<div class="card">
-<h3>📌 Project Image</h3>
-<p class="small-note">
-                   Add a project image in one of these paths:
-<br><br>
-<b>assets/project_cover.png</b><br>
-                   or<br>
-<b>outputs/screenshots/architecture.png</b>
-</p>
-</div>
-           """,
-           unsafe_allow_html=True
+image_path = find_project_image()
+if image_path:
+   left, center, right = st.columns([1, 2, 1])
+   with center:
+       st.image(
+           image_path,
+           caption="Project Architecture / Cover",
+           use_container_width=True
        )
-with col2:
+else:
    st.markdown(
        """
-<div class="card">
-<h3>Project Overview</h3>
-<p>
-               This project builds an integrated AI data platform for the transport and logistics sector.
-               It combines synthetic data generation, lakehouse architecture, data quality validation,
-               RAG-based retrieval, and an interactive AI assistant interface.
-</p>
-<p>
-               The platform simulates an enterprise-ready environment where logistics data can be ingested,
-               processed, validated, indexed, and queried through an intelligent assistant.
+<div class="card" style="text-align:center;">
+<h3>📌 Project Image</h3>
+<p class="small-note">
+               Add your image here:<br><br>
+<b>assets/project_cover.png</b><br>
+               or<br>
+<b>outputs/screenshots/architecture.png</b>
 </p>
 </div>
        """,
@@ -200,9 +226,30 @@ with col2:
    )
 
 # =========================================================
-# Metrics Section
+# Project Overview
 # =========================================================
-st.markdown("### Platform Components")
+st.markdown('<div class="section-title">Project Overview</div>', unsafe_allow_html=True)
+st.markdown(
+   """
+<div class="card">
+<p>
+           This project builds an integrated AI data platform for the transport and logistics sector.
+           It combines synthetic data generation, lakehouse architecture, data quality validation,
+           RAG-based retrieval, and an interactive AI assistant interface.
+</p>
+<p>
+           The platform simulates an enterprise-ready environment where logistics data can be ingested,
+           processed, validated, indexed, and queried through an intelligent assistant.
+</p>
+</div>
+   """,
+   unsafe_allow_html=True
+)
+
+# =========================================================
+# Platform Components
+# =========================================================
+st.markdown('<div class="section-title">Platform Components</div>', unsafe_allow_html=True)
 m1, m2, m3, m4 = st.columns(4)
 with m1:
    st.markdown(
@@ -248,22 +295,23 @@ with m4:
 # =========================================================
 # Team Members
 # =========================================================
-st.markdown("### Team Members")
+st.markdown('<div class="section-title">Team Members</div>', unsafe_allow_html=True)
 st.markdown(
    """
-<div class="card">
+<div class="team-box">
 <div class="team-member">Nadia Alghamdi</div>
-<div class="team-member">Ebtisam Alzahrani 2</div>
-<div class="team-member">Manar 3</div>
+<div class="team-member">Name 2</div>
+<div class="team-member">Name 3</div>
+<div class="team-member">Name 4</div>
 </div>
    """,
    unsafe_allow_html=True
 )
 
 # =========================================================
-# Data Preview Section
+# Data Preview
 # =========================================================
-st.markdown("### Data Preview")
+st.markdown('<div class="section-title">Data Preview</div>', unsafe_allow_html=True)
 data_files = [
    "data/raw/shipments.csv",
    "data/processed/cleaned_logistics_data.csv",
@@ -286,9 +334,9 @@ else:
 st.info("Data preview will appear here after running the data generation and lakehouse pipeline.")
 
 # =========================================================
-# AI Assistant Section
+# AI Assistant
 # =========================================================
-st.markdown("### AI Logistics Assistant")
+st.markdown('<div class="section-title">AI Logistics Assistant</div>', unsafe_allow_html=True)
 st.markdown(
    """
 <div class="card">
@@ -319,9 +367,9 @@ if st.button("Ask Assistant"):
 # =========================================================
 # Execution Status
 # =========================================================
-st.markdown("### Execution Status")
+st.markdown('<div class="section-title">Execution Status</div>', unsafe_allow_html=True)
 st.success("Application interface loaded successfully.")
-st.info("Recommended execution flow: tests → data generation → lakehouse pipeline → quality checks → RAG index → Streamlit app.")
+st.info("Execution flow: tests → data generation → lakehouse pipeline → quality checks → RAG index → Streamlit app.")
 
 # =========================================================
 # Footer
