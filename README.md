@@ -1,6 +1,8 @@
 # AI Knowledge Lakehouse Assistant for Transport & Logistics
 
-منصة ذكاء اصطناعي مؤسسية مستوحاة من otebookLM لقطاع النقل والخدمات اللوجستية.
+منصة ذكاء اصطناعي مؤسسية مستوحاة من NotebookLM لقطاع النقل والخدمات اللوجستية.
+
+# عمل الفريق: ناديه الغامدي & ابتسام محمد الزهراني & ريناد المطيري 
 
 ## Rubric Coverage
 
@@ -43,7 +45,8 @@ python src/ingestion/kafka_producer.py --dataset shipments
 python src/ingestion/kafka_consumer_to_bronze.py --topic logistics.shipments
 ```
 
-## Demo Questions
+## AI Assistant Streamlit & some Demo Questions
+(assets/assistant-preview.png)[واجهة المساعد الذكي]!
 
 - ما هو SLA الخاص بتحديث بيانات الشحنات؟
 - ما هي مؤشرات النقل البحري الموجودة في الكتالوج؟
