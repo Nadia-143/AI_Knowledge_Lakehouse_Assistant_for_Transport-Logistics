@@ -1,0 +1,6 @@
+sla_id,dataset_name,owner_agency,expected_frequency,submission_due_day,max_allowed_delay_days,minimum_quality_score,escalation_level_1,escalation_level_2,penalty_note
+SLA-SHIPMENTS,shipments,GACA,monthly,5,2,95,Data Steward,Data Governance Lead,Requires corrective action plan if SLA is breached twice in a quarter.
+SLA-PASSENGERS,passengers,RGA,weekly,6,2,85,Data Steward,Data Governance Lead,Requires corrective action plan if SLA is breached twice in a quarter.
+SLA-PORTS_OPERATIONS,ports_operations,MOTLS,daily,9,3,95,Data Steward,Data Governance Lead,Requires corrective action plan if SLA is breached twice in a quarter.
+SLA-RAIL_TRIPS,rail_trips,GACA,monthly,9,2,85,Data Steward,Data Governance Lead,Requires corrective action plan if SLA is breached twice in a quarter.
+SLA-ROAD_INCIDENTS,road_incidents,TGA,daily,9,5,90,Data Steward,Data Governance Lead,Requires corrective action plan if SLA is breached twice in a quarter.

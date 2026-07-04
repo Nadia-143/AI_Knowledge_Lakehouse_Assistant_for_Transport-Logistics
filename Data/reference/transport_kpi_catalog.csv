@@ -1,0 +1,9 @@
+kpi_id,kpi_name,domain,definition,unit,source_dataset,frequency,data_owner
+KPI-001,Average Shipment Delay Days,Logistics,Average actual delivery delay in days,days,shipments,monthly,Mawani/SPL/TGA
+KPI-002,On-Time Rail Trip Rate,Rail,Percentage of rail trips arriving on time,%,rail_trips,monthly,SAR
+KPI-003,Passenger Satisfaction Score,Multi-modal,Average satisfaction score across modes,score,passengers,quarterly,GACA/SAR/TGA
+KPI-004,Containers Handled,Sea,Total containers handled across ports,containers,ports_operations,monthly,Mawani
+KPI-005,Vessel Waiting Hours,Sea,Average waiting time for vessels,hours,ports_operations,monthly,Mawani
+KPI-006,Road Incident Clearance Time,Road,Average time to clear road incidents,minutes,road_incidents,monthly,RGA
+KPI-007,Data Freshness Compliance,Governance,Percentage of datasets updated within SLA,%,all,monthly,All agencies
+KPI-008,Data Quality Score,Governance,"Composite score based on completeness, validity, duplicates",%,all,monthly,All agencies

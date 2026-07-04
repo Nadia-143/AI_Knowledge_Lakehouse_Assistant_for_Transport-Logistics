@@ -1,0 +1,1001 @@
+shipment_id,agency,origin_region,destination_region,mode,shipment_status,planned_delivery_date,actual_delivery_date,weight_tons,cost_sar
+SHP-000000,SPL,Eastern,Makkah,Logistics,Delivered,2025-06-13,2025-06-13,59.38,27495.64
+SHP-000001,Mawani,Eastern,Riyadh,Logistics,Delivered,2025-06-01,2025-06-06,16.31,32669.28
+SHP-000002,TGA,Asir,Riyadh,Sea,Delivered,2025-05-20,2025-05-25,56.0,17342.4
+SHP-000003,SPL,Makkah,Makkah,Road,Delayed,2025-02-09,2025-02-10,67.88,30384.44
+SHP-000004,SPL,Makkah,Tabuk,Logistics,Delivered,2025-01-12,2025-01-19,15.79,3942.98
+SHP-000005,Mawani,Eastern,Qassim,Road,In Transit,2025-06-19,,36.55,41788.47
+SHP-000006,TGA,Asir,Makkah,Logistics,Delivered,2025-02-11,2025-02-14,50.98,26939.92
+SHP-000007,SPL,Eastern,Riyadh,Sea,Delivered,2025-03-04,2025-03-04,65.83,40349.77
+SHP-000008,TGA,Tabuk,Jazan,Road,Delivered,2025-04-13,2025-04-15,70.83,32321.17
+SHP-000009,TGA,Asir,Qassim,Logistics,Delivered,2025-02-06,2025-02-08,32.25,11356.38
+SHP-000010,Mawani,Makkah,Madinah,Logistics,Delivered,2025-02-05,2025-02-15,34.06,3644.62
+SHP-000011,TGA,Riyadh,Makkah,Logistics,Delivered,2025-04-08,2025-04-15,70.84,37668.45
+SHP-000012,SPL,Madinah,Asir,Logistics,Delivered,2025-06-14,2025-06-17,61.08,25630.24
+SHP-000013,TGA,Eastern,Madinah,Logistics,In Transit,2025-01-28,,76.3,46160.49
+SHP-000014,Mawani,Tabuk,Asir,Sea,Delivered,2025-01-01,2025-01-04,5.11,43961.48
+SHP-000015,Mawani,Madinah,Jazan,Logistics,In Transit,2025-01-21,,13.63,26619.85
+SHP-000016,TGA,Eastern,Qassim,Logistics,Delayed,2025-06-05,2025-06-10,52.17,22185.95
+SHP-000017,Mawani,Makkah,Eastern,Logistics,Delivered,2025-05-13,2025-05-20,18.01,4014.16
+SHP-000018,Mawani,Tabuk,Eastern,Road,Delivered,2025-06-11,2025-06-11,53.68,11104.72
+SHP-000019,SPL,Qassim,Makkah,Logistics,Delivered,2025-02-03,2025-02-10,34.77,21467.14
+SHP-000020,TGA,Makkah,Tabuk,Sea,Delivered,2025-04-30,2025-04-30,20.27,9915.34
+SHP-000021,SPL,Jazan,Makkah,Road,Delivered,2025-04-25,2025-04-25,64.74,42870.36
+SHP-000022,TGA,Riyadh,Eastern,Sea,Delivered,2025-01-26,2025-01-26,32.81,24327.24
+SHP-000023,Mawani,Qassim,Jazan,Road,Delivered,2025-04-13,2025-04-13,34.13,47887.22
+SHP-000024,SPL,Eastern,Riyadh,Logistics,Delivered,2025-05-23,2025-05-30,25.43,2982.05
+SHP-000025,TGA,Madinah,Makkah,Sea,Delayed,2025-05-03,2025-05-13,5.95,3864.06
+SHP-000026,TGA,Eastern,Riyadh,Logistics,Delivered,2025-03-02,2025-03-07,7.02,33039.97
+SHP-000027,SPL,Eastern,Tabuk,Sea,Delivered,2025-05-25,2025-06-04,21.62,6978.47
+SHP-000028,Mawani,Riyadh,Makkah,Sea,Delivered,2025-06-15,2025-06-17,43.24,25541.29
+SHP-000029,Mawani,Tabuk,Jazan,Logistics,Delayed,2025-02-03,2025-02-06,56.43,30778.05
+SHP-000030,TGA,Asir,Makkah,Sea,Delivered,2025-06-17,2025-06-27,21.53,44540.78
+SHP-000031,TGA,Eastern,Eastern,Logistics,Delivered,2025-05-22,2025-05-22,50.92,13567.2
+SHP-000032,Mawani,Makkah,Asir,Sea,Delayed,2025-05-06,2025-05-08,0.78,38670.4
+SHP-000033,SPL,Qassim,Makkah,Sea,Delivered,2025-06-13,2025-06-15,75.63,34705.47
+SHP-000034,SPL,Madinah,Riyadh,Road,Delivered,2025-02-08,2025-02-18,29.49,46687.86
+SHP-000035,Mawani,Makkah,Qassim,Logistics,Delivered,2025-01-11,2025-01-14,60.08,46325.31
+SHP-000036,Mawani,,Tabuk,Road,Cancelled,2025-03-02,,64.28,43271.17
+SHP-000037,TGA,Makkah,Riyadh,Road,Delivered,2025-03-05,2025-03-07,18.18,40921.04
+SHP-000038,Mawani,,Eastern,Road,Delivered,2025-04-28,2025-05-01,26.6,43285.47
+SHP-000039,SPL,Tabuk,Makkah,Road,Delivered,2025-03-13,2025-03-16,14.7,48145.45
+SHP-000040,SPL,Tabuk,Tabuk,Road,Delivered,2025-03-09,2025-03-09,48.69,25815.44
+SHP-000041,TGA,,Eastern,Road,Delivered,2025-04-09,2025-04-10,34.79,47469.29
+SHP-000042,Mawani,Asir,Qassim,Road,Delivered,2025-03-26,2025-03-29,32.49,15134.93
+SHP-000043,SPL,Madinah,Asir,Road,Delivered,2025-02-02,2025-02-03,44.06,520.09
+SHP-000044,TGA,Tabuk,Jazan,Logistics,Delivered,2025-03-15,2025-03-16,17.49,23922.72
+SHP-000045,TGA,Tabuk,Eastern,Logistics,Delivered,2025-02-13,2025-02-13,25.18,40424.86
+SHP-000046,SPL,Makkah,Eastern,Logistics,Delivered,2025-02-07,2025-02-07,55.86,24971.67
+SHP-000047,Mawani,Makkah,Eastern,Sea,Delivered,2025-03-04,2025-03-04,64.43,34947.63
+SHP-000048,Mawani,Jazan,Jazan,Logistics,Delivered,2025-04-29,2025-04-29,42.72,28166.8
+SHP-000049,TGA,Qassim,Jazan,Sea,Delivered,2025-03-23,2025-03-30,59.62,23996.38
+SHP-000050,SPL,Jazan,Asir,Road,In Transit,2025-03-08,,6.66,14643.54
+SHP-000051,TGA,Makkah,Eastern,Road,Delivered,2025-03-11,2025-03-14,55.67,35467.75
+SHP-000052,TGA,Jazan,Eastern,Road,Delivered,2025-01-17,2025-01-22,31.46,38604.89
+SHP-000053,TGA,Qassim,Tabuk,Road,Delayed,2025-06-28,2025-06-28,60.4,42745.67
+SHP-000054,TGA,Eastern,Asir,Road,In Transit,2025-04-18,,39.11,19748.43
+SHP-000055,SPL,Madinah,Riyadh,Road,In Transit,2025-06-21,,47.56,33318.49
+SHP-000056,SPL,Madinah,Qassim,Road,Delivered,2025-01-22,2025-01-27,17.33,16678.87
+SHP-000057,SPL,Asir,Jazan,Sea,In Transit,2025-04-08,,60.05,3078.24
+SHP-000058,TGA,Riyadh,Eastern,Sea,Delivered,2025-03-31,2025-04-01,67.22,31256.12
+SHP-000059,Mawani,Eastern,Asir,Road,Delivered,2025-03-03,2025-03-03,13.84,30558.75
+SHP-000060,Mawani,Riyadh,Qassim,Road,Delayed,2025-01-30,2025-01-30,75.35,10317.32
+SHP-000061,SPL,Makkah,Riyadh,Road,Delivered,2025-06-01,2025-06-02,42.85,33245.31
+SHP-000062,Mawani,Qassim,Makkah,Road,Delivered,2025-01-18,2025-01-28,76.88,31961.46
+SHP-000063,TGA,Asir,Jazan,Road,Delivered,2025-04-28,2025-04-28,35.13,36685.8
+SHP-000064,Mawani,Asir,Eastern,Road,Delayed,2025-03-10,2025-03-13,45.8,33575.33
+SHP-000065,SPL,Madinah,Tabuk,Road,Delivered,2025-03-28,2025-03-28,27.56,44075.84
+SHP-000066,TGA,Eastern,Qassim,Road,Delivered,2025-06-29,2025-07-01,44.64,12396.03
+SHP-000067,Mawani,Makkah,Qassim,Logistics,Delivered,2025-05-02,2025-05-09,19.84,33366.02
+SHP-000068,SPL,Qassim,Tabuk,Road,Delivered,2025-04-05,2025-04-12,56.38,13910.36
+SHP-000069,Mawani,Tabuk,Madinah,Sea,Delivered,2025-03-06,2025-03-07,17.7,24467.83
+SHP-000070,Mawani,Eastern,Tabuk,Sea,Delivered,2025-05-31,2025-06-10,24.53,35546.92
+SHP-000071,Mawani,Asir,Madinah,Logistics,Delivered,2025-02-02,2025-02-04,69.54,24798.5
+SHP-000072,SPL,Tabuk,Riyadh,Road,Delivered,2025-01-04,2025-01-06,75.31,24147.59
+SHP-000073,TGA,Riyadh,Asir,Sea,Delivered,2025-01-17,2025-01-22,79.52,6363.35
+SHP-000074,SPL,Jazan,Asir,Logistics,In Transit,2025-04-17,,79.21,15616.32
+SHP-000075,TGA,Makkah,Eastern,Logistics,Delivered,2025-06-08,2025-06-08,17.28,33191.19
+SHP-000076,Mawani,,Jazan,Logistics,Delivered,2025-02-10,2025-02-11,47.71,14917.33
+SHP-000077,TGA,Jazan,Eastern,Road,In Transit,2025-03-01,,63.13,31440.37
+SHP-000078,TGA,Eastern,Asir,Sea,Delivered,2025-06-19,2025-06-20,6.18,8713.18
+SHP-000079,SPL,Asir,Asir,Logistics,Delivered,2025-03-20,2025-03-22,43.43,22169.06
+SHP-000080,TGA,Tabuk,Riyadh,Sea,Delayed,2025-06-03,2025-06-03,18.7,33877.77
+SHP-000081,TGA,Asir,Madinah,Road,Cancelled,2025-05-28,,41.76,22390.36
+SHP-000082,SPL,Jazan,Jazan,Road,Cancelled,2025-03-13,,32.96,16392.38
+SHP-000083,TGA,Jazan,Qassim,Logistics,Delivered,2025-01-27,2025-01-27,3.42,4858.96
+SHP-000084,SPL,Riyadh,Jazan,Road,Delivered,2025-03-06,2025-03-09,4.81,26162.75
+SHP-000085,Mawani,Eastern,Madinah,Road,Delivered,2025-06-09,2025-06-16,35.33,35063.38
+SHP-000086,TGA,Eastern,Asir,Logistics,Cancelled,2025-02-01,,1.59,20695.54
+SHP-000087,Mawani,Madinah,Asir,Logistics,Delivered,2025-02-27,2025-02-27,56.58,21066.77
+SHP-000088,TGA,Madinah,Madinah,Sea,Delivered,2025-05-04,2025-05-11,22.46,39605.31
+SHP-000089,TGA,Asir,Asir,Logistics,Delayed,2025-04-17,2025-04-20,24.24,29553.42
+SHP-000090,SPL,Jazan,Qassim,Road,Delayed,2025-06-18,2025-06-25,74.66,43545.28
+SHP-000091,Mawani,Qassim,Jazan,Logistics,Delivered,2025-06-28,2025-06-29,73.12,19370.94
+SHP-000092,Mawani,Madinah,Tabuk,Sea,Delivered,2025-06-19,2025-06-19,70.0,22295.16
+SHP-000093,Mawani,Qassim,Madinah,Sea,Delivered,2025-05-15,2025-05-22,37.82,48475.58
+SHP-000094,SPL,Qassim,Jazan,Logistics,Delivered,2025-03-28,2025-04-02,3.35,3886.83
+SHP-000095,TGA,Makkah,Makkah,Logistics,Cancelled,2025-06-11,,56.46,5475.11
+SHP-000096,Mawani,Tabuk,Asir,Road,Delayed,2025-02-12,2025-02-14,30.3,7705.7
+SHP-000097,Mawani,Madinah,Qassim,Logistics,Delivered,2025-05-16,2025-05-21,54.81,25134.53
+SHP-000098,TGA,Asir,Riyadh,Road,Delivered,2025-05-30,2025-05-30,72.15,34041.74
+SHP-000099,SPL,Asir,Qassim,Logistics,Delivered,2025-02-10,2025-02-10,20.38,42342.54
+SHP-000100,Mawani,Eastern,Tabuk,Logistics,Delayed,2025-02-20,2025-02-25,24.02,35114.31
+SHP-000101,TGA,Riyadh,Jazan,Road,Delivered,2025-01-06,2025-01-11,62.17,11890.86
+SHP-000102,TGA,Asir,Madinah,Logistics,Delivered,2025-04-01,2025-04-02,8.22,31559.18
+SHP-000103,Mawani,Tabuk,Makkah,Road,In Transit,2025-01-11,,26.47,21067.4
+SHP-000104,SPL,Asir,Asir,Road,In Transit,2025-02-21,,77.41,15109.5
+SHP-000105,Mawani,Madinah,Eastern,Logistics,Delivered,2025-03-28,2025-03-28,58.08,49007.14
+SHP-000106,SPL,Riyadh,Makkah,Road,Delivered,2025-05-23,2025-05-26,29.8,37576.07
+SHP-000107,SPL,Makkah,Jazan,Sea,In Transit,2025-03-09,,49.75,47186.87
+SHP-000108,TGA,Jazan,Asir,Logistics,Delivered,2025-03-25,2025-03-26,32.96,7418.96
+SHP-000109,Mawani,Makkah,Madinah,Road,Cancelled,2025-01-10,,36.56,33689.07
+SHP-000110,TGA,Madinah,Makkah,Road,Delivered,2025-06-28,2025-07-08,49.44,46983.13
+SHP-000111,Mawani,Jazan,Eastern,Road,Delivered,2025-03-13,2025-03-13,8.4,34441.17
+SHP-000112,SPL,Eastern,Jazan,Sea,Delivered,2025-05-20,2025-05-23,53.19,32264.37
+SHP-000113,SPL,Eastern,Eastern,Sea,Delivered,2025-06-02,2025-06-02,66.47,27933.29
+SHP-000114,Mawani,Tabuk,Riyadh,Road,In Transit,2025-05-31,,68.74,7662.06
+SHP-000115,Mawani,Makkah,Riyadh,Sea,Delivered,2025-02-03,2025-02-13,1.68,39604.24
+SHP-000116,SPL,Riyadh,Qassim,Logistics,Delivered,2025-03-02,2025-03-05,9.54,3646.12
+SHP-000117,Mawani,Jazan,Riyadh,Logistics,Delivered,2025-04-25,2025-04-28,62.77,43415.55
+SHP-000118,Mawani,Riyadh,Qassim,Road,Delivered,2025-05-14,2025-05-16,55.04,24768.31
+SHP-000119,SPL,Madinah,Asir,Logistics,Delayed,2025-04-24,2025-04-24,50.83,27643.64
+SHP-000120,TGA,Asir,Qassim,Sea,Cancelled,2025-03-25,,63.55,6163.5
+SHP-000121,Mawani,Qassim,Eastern,Road,In Transit,2025-06-17,,27.45,22948.2
+SHP-000122,SPL,Asir,Madinah,Logistics,Delivered,2025-04-17,2025-04-17,73.88,3823.1
+SHP-000123,TGA,Tabuk,Riyadh,Logistics,Delivered,2025-01-22,2025-01-22,76.55,28303.33
+SHP-000124,TGA,Qassim,Riyadh,Road,Delivered,2025-06-21,2025-06-21,48.23,17906.49
+SHP-000125,TGA,Jazan,Makkah,Road,Delivered,2025-05-28,2025-06-07,67.71,18694.27
+SHP-000126,TGA,Riyadh,Asir,Sea,In Transit,2025-03-13,,14.84,35283.59
+SHP-000127,Mawani,Madinah,Qassim,Sea,Delivered,2025-03-21,2025-03-24,11.78,31842.01
+SHP-000128,Mawani,Qassim,Tabuk,Sea,In Transit,2025-01-08,,29.92,36219.0
+SHP-000129,Mawani,Madinah,Riyadh,Logistics,Delayed,2025-05-26,2025-05-26,6.99,22434.09
+SHP-000130,SPL,Asir,Makkah,Road,Delivered,2025-04-19,2025-04-26,34.68,14520.7
+SHP-000131,SPL,Riyadh,Riyadh,Sea,Delivered,2025-06-23,2025-06-30,16.75,47293.54
+SHP-000132,Mawani,Riyadh,Qassim,Sea,Delivered,2025-02-05,2025-02-07,10.77,26862.83
+SHP-000133,TGA,Tabuk,Riyadh,Road,Delivered,2025-02-28,2025-03-10,1.99,46097.54
+SHP-000134,TGA,Qassim,Qassim,Sea,Delivered,2025-03-22,2025-03-27,77.31,9007.72
+SHP-000135,SPL,Makkah,Makkah,Sea,In Transit,2025-06-08,,35.14,20322.27
+SHP-000136,TGA,Tabuk,Madinah,Sea,Delayed,2025-01-21,2025-01-26,41.08,6144.32
+SHP-000137,SPL,Tabuk,Madinah,Sea,Delayed,2025-05-11,2025-05-12,8.67,13170.43
+SHP-000138,TGA,Makkah,Jazan,Road,In Transit,2025-02-14,,60.48,38113.92
+SHP-000139,TGA,Tabuk,Makkah,Road,Delayed,2025-04-25,2025-04-28,35.66,15489.61
+SHP-000140,Mawani,Asir,Riyadh,Sea,Delivered,2025-03-12,2025-03-12,29.81,14710.31
+SHP-000141,TGA,Qassim,Riyadh,Road,Delivered,2025-06-15,2025-06-15,72.77,28797.01
+SHP-000142,TGA,Madinah,Jazan,Sea,Delivered,2025-02-18,2025-02-21,64.97,41950.17
+SHP-000143,Mawani,Eastern,Jazan,Logistics,Delivered,2025-01-22,2025-02-01,42.06,8357.94
+SHP-000144,SPL,Riyadh,Tabuk,Sea,Delivered,2025-04-06,2025-04-08,26.71,28119.18
+SHP-000145,TGA,Madinah,Madinah,Road,Delivered,2025-04-09,2025-04-11,25.16,32974.71
+SHP-000146,TGA,Makkah,Qassim,Logistics,Delivered,2025-06-19,2025-06-24,63.44,40752.65
+SHP-000147,TGA,Qassim,Riyadh,Road,Delivered,2025-06-21,2025-07-01,25.05,47582.88
+SHP-000148,Mawani,Madinah,Makkah,Logistics,Delivered,2025-03-29,2025-04-05,61.78,41838.43
+SHP-000149,TGA,Madinah,Madinah,Sea,Delivered,2025-05-15,2025-05-15,14.88,34795.86
+SHP-000150,Mawani,Qassim,Eastern,Road,In Transit,2025-06-09,,49.04,37743.36
+SHP-000151,SPL,Jazan,Eastern,Road,Delivered,2025-04-25,2025-04-26,54.43,28735.76
+SHP-000152,SPL,Qassim,Eastern,Logistics,In Transit,2025-04-23,,11.5,12875.16
+SHP-000153,TGA,Makkah,Makkah,Road,Delayed,2025-06-14,2025-06-21,7.17,8435.46
+SHP-000154,SPL,Makkah,Eastern,Road,Delivered,2025-04-26,2025-05-06,70.83,46558.36
+SHP-000155,SPL,Eastern,Makkah,Road,Delivered,2025-04-17,2025-04-17,18.35,16274.9
+SHP-000156,Mawani,Riyadh,Jazan,Logistics,In Transit,2025-01-26,,66.57,38062.64
+SHP-000157,Mawani,Riyadh,Madinah,Logistics,Delivered,2025-05-01,2025-05-08,75.25,30639.56
+SHP-000158,Mawani,Asir,Eastern,Road,In Transit,2025-04-19,,51.3,31329.12
+SHP-000159,SPL,Riyadh,Eastern,Logistics,In Transit,2025-01-17,,11.91,21747.33
+SHP-000160,SPL,Madinah,Makkah,Logistics,Delivered,2025-06-07,2025-06-10,77.99,3850.13
+SHP-000161,TGA,Riyadh,Jazan,Sea,Delivered,2025-05-15,2025-05-25,51.04,49061.45
+SHP-000162,Mawani,Tabuk,Makkah,Logistics,Delivered,2025-03-06,2025-03-06,58.95,16959.67
+SHP-000163,TGA,Madinah,Jazan,Logistics,Delivered,2025-01-12,2025-01-15,38.54,9522.76
+SHP-000164,SPL,Riyadh,Riyadh,Sea,In Transit,2025-02-04,,70.92,16121.99
+SHP-000165,TGA,Jazan,Eastern,Road,Delivered,2025-03-21,2025-03-31,28.88,39151.66
+SHP-000166,SPL,Qassim,Jazan,Road,Delivered,2025-06-17,2025-06-20,27.45,9747.45
+SHP-000167,TGA,Asir,Qassim,Sea,Delivered,2025-06-27,2025-07-04,34.73,49757.36
+SHP-000168,Mawani,Makkah,Asir,Road,Delivered,2025-02-16,2025-02-26,35.95,36024.31
+SHP-000169,Mawani,Tabuk,Qassim,Road,Delivered,2025-02-12,2025-02-19,51.34,39678.15
+SHP-000170,SPL,Tabuk,Madinah,Sea,Delivered,2025-01-15,2025-01-15,11.85,30574.86
+SHP-000171,Mawani,Tabuk,Riyadh,Logistics,Delivered,2025-04-23,2025-04-23,12.7,22771.17
+SHP-000172,Mawani,Madinah,Qassim,Road,Delivered,2025-04-05,2025-04-08,52.14,12855.78
+SHP-000173,SPL,Qassim,Makkah,Road,In Transit,2025-01-30,,62.11,35349.87
+SHP-000174,SPL,Eastern,Makkah,Road,Delivered,2025-02-24,2025-02-26,14.23,35811.81
+SHP-000175,TGA,Makkah,Asir,Road,Delivered,2025-01-23,2025-01-26,68.18,35734.55
+SHP-000176,TGA,Eastern,Eastern,Sea,In Transit,2025-06-29,,19.32,24954.09
+SHP-000177,SPL,Madinah,Makkah,Sea,Delivered,2025-04-03,2025-04-13,25.09,49979.95
+SHP-000178,SPL,Makkah,Tabuk,Logistics,Delivered,2025-05-03,2025-05-13,6.4,23558.74
+SHP-000179,TGA,Madinah,Madinah,Road,Delivered,2025-05-13,2025-05-16,40.48,43476.48
+SHP-000180,Mawani,Madinah,Eastern,Road,Delivered,2025-02-01,2025-02-11,75.82,26185.44
+SHP-000181,TGA,Asir,Asir,Logistics,Delivered,2025-03-14,2025-03-14,42.91,25377.37
+SHP-000182,TGA,Tabuk,Riyadh,Sea,Delivered,2025-02-13,2025-02-13,6.96,47453.07
+SHP-000183,TGA,Qassim,Riyadh,Road,Delivered,2025-05-28,2025-05-30,71.18,27506.09
+SHP-000184,TGA,Qassim,Makkah,Logistics,Delivered,2025-06-14,2025-06-16,5.26,22260.47
+SHP-000185,TGA,Madinah,Tabuk,Logistics,Delivered,2025-05-04,2025-05-11,79.05,17595.84
+SHP-000186,TGA,Makkah,Jazan,Sea,In Transit,2025-04-13,,21.76,12771.98
+SHP-000187,SPL,Qassim,Madinah,Road,Delivered,2025-01-25,2025-01-25,74.73,36195.86
+SHP-000188,TGA,Jazan,Asir,Road,Delivered,2025-02-18,2025-02-18,2.34,47289.02
+SHP-000189,Mawani,Tabuk,Asir,Road,Delayed,2025-05-10,2025-05-17,48.0,42221.06
+SHP-000190,Mawani,Makkah,Asir,Logistics,Delivered,2025-06-22,2025-06-29,29.58,20461.08
+SHP-000191,TGA,Eastern,Asir,Sea,Delivered,2025-01-12,2025-01-17,31.21,22792.54
+SHP-000192,TGA,Makkah,Makkah,Road,In Transit,2025-05-21,,30.17,49345.99
+SHP-000193,Mawani,Qassim,Riyadh,Sea,In Transit,2025-05-23,,11.39,16985.51
+SHP-000194,TGA,Madinah,Tabuk,Sea,Delivered,2025-05-02,2025-05-12,31.74,31016.77
+SHP-000195,TGA,Jazan,Asir,Road,Delivered,2025-03-18,2025-03-21,65.35,18733.71
+SHP-000196,TGA,Asir,Riyadh,Logistics,Cancelled,2025-06-22,,38.23,48370.0
+SHP-000197,TGA,Jazan,Qassim,Sea,In Transit,2025-05-29,,65.82,12488.73
+SHP-000198,SPL,Tabuk,Qassim,Logistics,Delivered,2025-05-27,2025-05-27,16.71,25340.07
+SHP-000199,TGA,Riyadh,Eastern,Logistics,Delayed,2025-06-06,2025-06-13,26.34,33280.23
+SHP-000200,Mawani,Jazan,Tabuk,Logistics,Delivered,2025-05-15,2025-05-20,28.67,38713.49
+SHP-000201,Mawani,Eastern,Asir,Sea,Delivered,2025-06-24,2025-06-26,75.35,49121.88
+SHP-000202,SPL,Tabuk,Asir,Road,Delivered,2025-03-15,2025-03-16,10.19,33992.8
+SHP-000203,Mawani,Asir,Makkah,Road,In Transit,2025-04-08,,73.96,32970.62
+SHP-000204,TGA,Asir,Asir,Sea,Delivered,2025-05-03,2025-05-04,9.18,37174.1
+SHP-000205,TGA,Eastern,Riyadh,Sea,Delivered,2025-03-03,2025-03-04,33.36,36009.22
+SHP-000206,TGA,Madinah,Jazan,Road,Delivered,2025-01-26,2025-01-26,52.22,37917.6
+SHP-000207,Mawani,Makkah,Eastern,Logistics,Delivered,2025-03-15,2025-03-18,59.23,42591.49
+SHP-000208,Mawani,Riyadh,Qassim,Road,Delivered,2025-01-10,2025-01-10,15.31,37575.66
+SHP-000209,TGA,Makkah,Tabuk,Road,Delivered,2025-03-16,2025-03-16,36.62,32244.96
+SHP-000210,Mawani,Jazan,Makkah,Road,Delayed,2025-05-15,2025-05-22,13.42,23216.27
+SHP-000211,SPL,Asir,Eastern,Sea,Delivered,2025-03-07,2025-03-07,49.07,32116.93
+SHP-000212,Mawani,Qassim,Madinah,Sea,Delivered,2025-04-14,2025-04-19,38.46,46823.36
+SHP-000213,SPL,Asir,Asir,Logistics,Delivered,2025-01-02,2025-01-04,57.97,1066.07
+SHP-000214,Mawani,Makkah,Madinah,Road,Delivered,2025-06-17,2025-06-20,55.04,46193.75
+SHP-000215,TGA,Asir,Eastern,Sea,Delivered,2025-06-30,2025-07-02,76.61,24170.0
+SHP-000216,TGA,Jazan,Eastern,Sea,Delivered,2025-04-27,2025-04-30,54.59,29992.82
+SHP-000217,TGA,Tabuk,Makkah,Sea,Delivered,2025-01-21,2025-01-31,66.39,45192.96
+SHP-000218,SPL,Jazan,Eastern,Logistics,Delivered,2025-02-21,2025-03-03,46.86,5001.61
+SHP-000219,SPL,Madinah,Jazan,Logistics,In Transit,2025-05-11,,5.09,23387.73
+SHP-000220,Mawani,Eastern,Riyadh,Road,Delivered,2025-03-20,2025-03-20,27.89,3656.12
+SHP-000221,SPL,Riyadh,Madinah,Sea,Cancelled,2025-01-16,,61.38,48927.5
+SHP-000222,SPL,Jazan,Qassim,Road,Delivered,2025-06-15,2025-06-20,6.88,48225.15
+SHP-000223,SPL,Makkah,Qassim,Logistics,Delivered,2025-05-19,2025-05-19,10.62,48946.86
+SHP-000224,SPL,Qassim,Eastern,Sea,Cancelled,2025-01-01,,37.12,8178.51
+SHP-000225,TGA,Qassim,Riyadh,Sea,Delivered,2025-02-18,2025-02-18,16.88,5494.39
+SHP-000226,TGA,Riyadh,Riyadh,Road,Delivered,2025-01-09,2025-01-16,35.4,27218.11
+SHP-000227,SPL,Eastern,Tabuk,Logistics,Delivered,2025-01-15,2025-01-15,48.03,33790.33
+SHP-000228,Mawani,Eastern,Asir,Sea,Delivered,2025-03-24,2025-03-25,44.76,29787.52
+SHP-000229,Mawani,Tabuk,Qassim,Logistics,Delivered,2025-02-14,2025-02-19,25.84,21108.07
+SHP-000230,TGA,Jazan,Eastern,Road,Delivered,2025-02-08,2025-02-10,68.67,7645.41
+SHP-000231,SPL,Madinah,Asir,Sea,Delivered,2025-04-29,2025-04-29,26.76,4413.99
+SHP-000232,TGA,Eastern,Qassim,Logistics,Delivered,2025-04-26,2025-04-29,48.6,2457.6
+SHP-000233,TGA,Eastern,Tabuk,Road,In Transit,2025-01-19,,76.58,1259.02
+SHP-000234,SPL,Eastern,Eastern,Road,In Transit,2025-02-18,,73.25,27827.92
+SHP-000235,TGA,Tabuk,Tabuk,Logistics,Delivered,2025-03-14,2025-03-19,70.68,23567.2
+SHP-000236,SPL,Tabuk,Eastern,Logistics,Delayed,2025-05-01,2025-05-04,12.1,13408.32
+SHP-000237,Mawani,Tabuk,Eastern,Road,Delivered,2025-05-30,2025-06-04,44.28,47201.49
+SHP-000238,SPL,Jazan,Tabuk,Sea,In Transit,2025-03-28,,11.63,27554.04
+SHP-000239,Mawani,Riyadh,Makkah,Logistics,Cancelled,2025-02-17,,4.36,816.0
+SHP-000240,Mawani,Riyadh,Jazan,Road,Delivered,2025-02-05,2025-02-06,5.31,32067.57
+SHP-000241,Mawani,Riyadh,Qassim,Sea,Delivered,2025-06-07,2025-06-14,1.83,36248.54
+SHP-000242,TGA,Qassim,Madinah,Sea,Delivered,2025-05-18,2025-05-20,73.48,26457.08
+SHP-000243,SPL,Tabuk,Qassim,Sea,Delivered,2025-03-03,2025-03-04,30.16,20598.36
+SHP-000244,Mawani,Asir,Makkah,Logistics,Cancelled,2025-05-25,,79.34,32669.78
+SHP-000245,SPL,Jazan,Riyadh,Logistics,Delivered,2025-01-09,2025-01-09,14.12,25242.99
+SHP-000246,Mawani,Riyadh,Jazan,Road,Delivered,2025-04-22,2025-04-25,4.2,4180.23
+SHP-000247,Mawani,Madinah,Tabuk,Sea,Delivered,2025-03-13,2025-03-23,76.94,29558.29
+SHP-000248,TGA,Eastern,Qassim,Logistics,Delivered,2025-04-12,2025-04-12,71.77,16920.63
+SHP-000249,SPL,Riyadh,Eastern,Sea,Delivered,2025-02-05,2025-02-05,27.58,38565.78
+SHP-000250,SPL,Riyadh,Jazan,Road,Delayed,2025-06-02,2025-06-07,18.64,27875.37
+SHP-000251,TGA,Qassim,Asir,Sea,Delivered,2025-04-07,2025-04-12,57.19,4560.88
+SHP-000252,TGA,Madinah,Tabuk,Road,In Transit,2025-02-09,,8.97,757.16
+SHP-000253,SPL,Makkah,Madinah,Road,Delivered,2025-03-20,2025-03-27,36.18,27959.63
+SHP-000254,SPL,Makkah,Tabuk,Road,Delivered,2025-04-15,2025-04-15,1.48,20983.6
+SHP-000255,Mawani,Madinah,Madinah,Sea,Delayed,2025-01-22,2025-02-01,21.88,13786.14
+SHP-000256,SPL,Qassim,Makkah,Road,Delivered,2025-02-07,2025-02-07,20.51,12706.21
+SHP-000257,Mawani,Jazan,Asir,Sea,Delivered,2025-06-10,2025-06-17,75.93,16944.75
+SHP-000258,SPL,Jazan,Madinah,Road,In Transit,2025-06-08,,25.99,47390.31
+SHP-000259,SPL,Tabuk,Jazan,Logistics,Delivered,2025-02-21,2025-02-28,62.67,16631.37
+SHP-000260,TGA,Eastern,Madinah,Logistics,Delivered,2025-03-13,2025-03-18,61.53,1832.35
+SHP-000261,SPL,Makkah,Qassim,Logistics,Delivered,2025-04-29,2025-04-30,40.19,31850.13
+SHP-000262,TGA,Qassim,Makkah,Road,Delivered,2025-03-03,2025-03-05,79.26,24222.12
+SHP-000263,TGA,Qassim,Tabuk,Logistics,Delivered,2025-04-13,2025-04-23,71.69,27076.85
+SHP-000264,Mawani,Tabuk,Riyadh,Logistics,Delivered,2025-06-13,2025-06-13,78.7,34034.86
+SHP-000265,SPL,,Asir,Sea,Delayed,2025-04-13,2025-04-16,41.1,26180.49
+SHP-000266,SPL,Jazan,Madinah,Road,Delivered,2025-05-29,2025-05-30,79.82,24397.17
+SHP-000267,Mawani,Makkah,Madinah,Road,Delayed,2025-03-17,2025-03-22,25.3,23038.97
+SHP-000268,SPL,Makkah,Jazan,Road,Delivered,2025-02-22,2025-03-04,5.84,2711.81
+SHP-000269,TGA,Makkah,Madinah,Logistics,In Transit,2025-01-30,,19.89,9135.44
+SHP-000270,SPL,Eastern,Madinah,Sea,Delivered,2025-02-10,2025-02-13,51.42,21890.66
+SHP-000271,SPL,,Eastern,Sea,Delivered,2025-01-08,2025-01-09,22.63,35336.11
+SHP-000272,TGA,Madinah,Eastern,Road,In Transit,2025-01-17,,9.56,33699.72
+SHP-000273,SPL,Qassim,Makkah,Road,Delayed,2025-05-06,2025-05-16,28.48,23164.1
+SHP-000274,TGA,Makkah,Tabuk,Sea,Delayed,2025-02-14,2025-02-16,19.47,6288.97
+SHP-000275,SPL,Madinah,Qassim,Sea,Delivered,2025-04-06,2025-04-06,39.19,27100.27
+SHP-000276,SPL,Asir,Tabuk,Road,Delivered,2025-06-15,2025-06-15,49.74,43343.35
+SHP-000277,SPL,Jazan,Jazan,Road,Delivered,2025-01-03,2025-01-10,56.96,22470.66
+SHP-000278,Mawani,,Eastern,Logistics,Delivered,2025-02-12,2025-02-12,23.45,39146.64
+SHP-000279,Mawani,Makkah,Tabuk,Logistics,Delivered,2025-05-25,2025-06-01,65.9,2559.72
+SHP-000280,SPL,Makkah,Eastern,Road,Delivered,2025-04-23,2025-05-03,70.05,2095.4
+SHP-000281,Mawani,Jazan,Makkah,Sea,Delayed,2025-03-09,2025-03-12,17.19,37011.84
+SHP-000282,TGA,Qassim,Madinah,Sea,Delayed,2025-06-26,2025-06-29,65.18,40369.3
+SHP-000283,TGA,Madinah,Asir,Road,Delivered,2025-05-26,2025-05-29,46.03,47643.67
+SHP-000284,SPL,Riyadh,Madinah,Logistics,Delivered,2025-05-12,2025-05-12,69.35,12859.02
+SHP-000285,TGA,Qassim,Asir,Logistics,In Transit,2025-03-24,,33.43,22873.59
+SHP-000286,TGA,Asir,Tabuk,Road,Delivered,2025-06-12,2025-06-12,76.05,16700.82
+SHP-000287,SPL,Tabuk,Qassim,Sea,In Transit,2025-01-01,,77.47,41329.96
+SHP-000288,SPL,Tabuk,Madinah,Logistics,Delivered,2025-05-07,2025-05-09,68.27,39521.03
+SHP-000289,TGA,,Madinah,Road,Delivered,2025-06-24,2025-06-24,36.79,49595.99
+SHP-000290,Mawani,Asir,Asir,Sea,Cancelled,2025-04-20,,52.54,12894.27
+SHP-000291,TGA,Asir,Eastern,Road,Delivered,2025-04-06,2025-04-06,52.61,35333.05
+SHP-000292,Mawani,Eastern,Jazan,Sea,Delivered,2025-01-01,2025-01-02,1.14,17506.92
+SHP-000293,SPL,Makkah,Makkah,Logistics,Delivered,2025-01-31,2025-02-05,64.57,5608.48
+SHP-000294,Mawani,Madinah,Riyadh,Logistics,Delivered,2025-04-05,2025-04-07,52.18,22284.92
+SHP-000295,TGA,Jazan,Makkah,Sea,Delayed,2025-02-24,2025-02-24,11.63,6596.28
+SHP-000296,SPL,Madinah,Makkah,Sea,Delayed,2025-04-09,2025-04-12,44.5,30200.39
+SHP-000297,TGA,Riyadh,Asir,Sea,In Transit,2025-06-05,,41.66,25721.37
+SHP-000298,Mawani,Jazan,Eastern,Road,Delivered,2025-04-11,2025-04-13,51.23,4015.09
+SHP-000299,Mawani,Qassim,Qassim,Road,Delayed,2025-01-04,2025-01-07,43.94,9052.13
+SHP-000300,Mawani,Riyadh,Riyadh,Sea,Delivered,2025-05-01,2025-05-01,75.92,20199.76
+SHP-000301,SPL,Qassim,Madinah,Road,In Transit,2025-03-15,,7.15,4411.57
+SHP-000302,SPL,Makkah,Qassim,Logistics,Delivered,2025-02-22,2025-02-22,76.3,12312.55
+SHP-000303,Mawani,Jazan,Riyadh,Road,Delayed,2025-03-04,2025-03-04,53.45,33073.59
+SHP-000304,Mawani,Riyadh,Tabuk,Logistics,Delivered,2025-02-14,2025-02-14,41.62,41214.09
+SHP-000305,TGA,Asir,Makkah,Sea,Delivered,2025-03-08,2025-03-08,27.13,21751.57
+SHP-000306,TGA,Makkah,Tabuk,Sea,Delivered,2025-05-15,2025-05-15,40.22,28560.86
+SHP-000307,Mawani,Makkah,Riyadh,Sea,Delivered,2025-04-05,2025-04-05,68.77,1108.26
+SHP-000308,Mawani,Madinah,Riyadh,Logistics,Delivered,2025-01-12,2025-01-19,64.35,35844.03
+SHP-000309,Mawani,Qassim,Tabuk,Road,Delivered,2025-06-17,2025-06-22,66.17,28791.03
+SHP-000310,Mawani,Madinah,Riyadh,Road,Delivered,2025-01-31,2025-02-10,5.98,23522.16
+SHP-000311,TGA,,Eastern,Road,Delivered,2025-03-14,2025-03-16,45.32,15543.51
+SHP-000312,TGA,Jazan,Eastern,Logistics,Delivered,2025-06-09,2025-06-10,72.09,38143.87
+SHP-000313,SPL,Riyadh,Tabuk,Logistics,Delivered,2025-03-04,2025-03-04,67.25,43921.33
+SHP-000314,SPL,Asir,Eastern,Road,In Transit,2025-03-27,,39.62,3464.81
+SHP-000315,Mawani,Qassim,Tabuk,Road,Delivered,2025-02-06,2025-02-08,77.98,4702.67
+SHP-000316,SPL,Makkah,Riyadh,Road,Delivered,2025-01-25,2025-02-04,53.16,6970.06
+SHP-000317,SPL,Tabuk,Asir,Sea,Delayed,2025-03-16,2025-03-18,6.44,10534.28
+SHP-000318,Mawani,Jazan,Qassim,Sea,Delivered,2025-05-30,2025-05-30,43.11,48249.42
+SHP-000319,SPL,Makkah,Asir,Logistics,Delivered,2025-02-23,2025-03-02,55.9,2496.33
+SHP-000320,Mawani,Tabuk,Riyadh,Logistics,Delivered,2025-03-25,2025-03-25,24.26,41094.44
+SHP-000321,SPL,Eastern,Makkah,Sea,Delayed,2025-02-14,2025-02-14,10.16,3552.62
+SHP-000322,SPL,Tabuk,Makkah,Logistics,Delivered,2025-02-26,2025-02-26,47.1,45912.71
+SHP-000323,Mawani,Jazan,Makkah,Road,Cancelled,2025-01-20,,10.24,47142.89
+SHP-000324,SPL,Qassim,Qassim,Logistics,Delayed,2025-01-13,2025-01-13,34.42,18020.19
+SHP-000325,Mawani,Riyadh,Eastern,Logistics,Delivered,2025-02-17,2025-02-19,23.96,20893.61
+SHP-000326,SPL,Qassim,Eastern,Logistics,Delivered,2025-05-21,2025-05-28,70.83,26527.8
+SHP-000327,SPL,Tabuk,Jazan,Road,In Transit,2025-06-11,,73.06,25368.47
+SHP-000328,SPL,,Asir,Sea,Delivered,2025-04-10,2025-04-12,64.79,23848.38
+SHP-000329,Mawani,Eastern,Asir,Logistics,Cancelled,2025-04-02,,65.39,45904.34
+SHP-000330,SPL,Tabuk,Madinah,Sea,Delivered,2025-01-15,2025-01-16,19.31,16241.22
+SHP-000331,Mawani,Tabuk,Madinah,Logistics,Delayed,2025-06-28,2025-07-01,75.9,41916.49
+SHP-000332,SPL,Riyadh,Eastern,Logistics,Delivered,2025-05-07,2025-05-17,17.9,26559.2
+SHP-000333,Mawani,Madinah,Madinah,Road,Delayed,2025-01-01,2025-01-04,5.23,7811.74
+SHP-000334,TGA,Tabuk,Tabuk,Logistics,In Transit,2025-06-30,,75.38,20081.98
+SHP-000335,Mawani,Madinah,Qassim,Logistics,Delivered,2025-01-26,2025-01-29,76.87,32634.42
+SHP-000336,TGA,Tabuk,Madinah,Road,Delivered,2025-02-14,2025-02-24,24.89,34580.67
+SHP-000337,TGA,Qassim,Riyadh,Sea,In Transit,2025-02-02,,48.39,46091.39
+SHP-000338,Mawani,Jazan,Makkah,Sea,Delivered,2025-06-06,2025-06-07,28.07,16316.17
+SHP-000339,TGA,Tabuk,Asir,Sea,In Transit,2025-06-12,,20.34,3855.84
+SHP-000340,Mawani,Qassim,Qassim,Sea,In Transit,2025-03-07,,70.82,24907.56
+SHP-000341,Mawani,Jazan,Eastern,Sea,Delivered,2025-04-07,2025-04-10,36.38,40060.13
+SHP-000342,SPL,Makkah,Madinah,Road,Delivered,2025-01-09,2025-01-11,13.29,4212.62
+SHP-000343,TGA,Jazan,Qassim,Logistics,Delivered,2025-01-24,2025-01-27,13.62,44542.79
+SHP-000344,Mawani,Eastern,Asir,Logistics,Delivered,2025-02-10,2025-02-10,22.88,12258.64
+SHP-000345,SPL,Madinah,Riyadh,Road,Delivered,2025-01-13,2025-01-18,7.47,41282.92
+SHP-000346,Mawani,Eastern,Asir,Sea,Delivered,2025-06-10,2025-06-17,38.15,6217.69
+SHP-000347,TGA,Asir,Qassim,Sea,Delivered,2025-04-12,2025-04-19,30.0,19381.54
+SHP-000348,SPL,Jazan,Asir,Logistics,Delivered,2025-02-17,2025-02-24,5.4,37735.64
+SHP-000349,SPL,Qassim,Eastern,Logistics,Delivered,2025-06-20,2025-06-20,5.35,19661.75
+SHP-000350,TGA,Jazan,Eastern,Road,Delayed,2025-05-14,2025-05-19,24.26,20042.82
+SHP-000351,TGA,Madinah,Jazan,Sea,Delivered,2025-01-09,2025-01-19,75.95,8774.66
+SHP-000352,SPL,Makkah,Qassim,Sea,Delivered,2025-02-24,2025-02-25,79.78,31547.7
+SHP-000353,TGA,Makkah,Qassim,Logistics,Delivered,2025-06-02,2025-06-04,26.43,14171.94
+SHP-000354,TGA,Qassim,Madinah,Sea,In Transit,2025-04-28,,45.54,29342.52
+SHP-000355,Mawani,Asir,Tabuk,Road,Delivered,2025-01-26,2025-01-26,21.5,32911.99
+SHP-000356,SPL,Qassim,Qassim,Sea,Delivered,2025-05-27,2025-06-03,31.97,44008.4
+SHP-000357,SPL,Asir,Riyadh,Road,Delivered,2025-06-26,2025-06-27,65.48,15501.22
+SHP-000358,TGA,Makkah,Eastern,Sea,Delayed,2025-03-13,2025-03-20,24.39,37314.32
+SHP-000359,TGA,Makkah,Eastern,Road,In Transit,2025-03-24,,59.41,38094.92
+SHP-000360,Mawani,Makkah,Qassim,Sea,Delivered,2025-04-06,2025-04-06,62.55,26452.17
+SHP-000361,Mawani,Riyadh,Jazan,Sea,Delivered,2025-05-26,2025-05-26,73.48,35379.38
+SHP-000362,TGA,Qassim,Makkah,Logistics,In Transit,2025-03-12,,2.93,18937.1
+SHP-000363,SPL,Tabuk,Asir,Logistics,Delivered,2025-06-02,2025-06-09,66.55,4974.4
+SHP-000364,TGA,Eastern,Eastern,Logistics,Delivered,2025-01-08,2025-01-13,16.94,32753.57
+SHP-000365,TGA,Riyadh,Madinah,Logistics,Delayed,2025-05-12,2025-05-12,14.27,40142.81
+SHP-000366,SPL,Asir,Qassim,Road,Delivered,2025-02-27,2025-03-01,36.99,11301.35
+SHP-000367,SPL,,Tabuk,Logistics,In Transit,2025-03-19,,51.96,30647.98
+SHP-000368,SPL,Asir,Asir,Road,Delivered,2025-03-18,2025-03-18,52.66,47633.3
+SHP-000369,TGA,Eastern,Qassim,Logistics,Delivered,2025-06-16,2025-06-18,25.91,7426.51
+SHP-000370,SPL,Qassim,Riyadh,Logistics,Cancelled,2025-01-07,,56.79,28816.1
+SHP-000371,Mawani,Jazan,Tabuk,Logistics,In Transit,2025-02-18,,24.37,8914.34
+SHP-000372,Mawani,Jazan,Asir,Logistics,Delivered,2025-06-18,2025-06-28,64.76,38264.45
+SHP-000373,Mawani,Tabuk,Asir,Road,Delivered,2025-02-16,2025-02-19,63.15,16900.2
+SHP-000374,Mawani,Jazan,Makkah,Road,Delivered,2025-03-08,2025-03-10,71.21,25273.63
+SHP-000375,SPL,Riyadh,Madinah,Sea,Delivered,2025-06-24,2025-06-29,79.39,17462.16
+SHP-000376,TGA,Madinah,Jazan,Road,Delivered,2025-05-26,2025-06-02,50.67,9252.8
+SHP-000377,SPL,Eastern,Madinah,Logistics,Delivered,2025-06-12,2025-06-12,61.28,24734.07
+SHP-000378,TGA,Qassim,Jazan,Road,Delivered,2025-01-23,2025-01-23,0.87,26922.24
+SHP-000379,TGA,,Riyadh,Logistics,Delayed,2025-04-06,2025-04-06,58.82,11700.15
+SHP-000380,SPL,Asir,Riyadh,Road,Delivered,2025-03-30,2025-04-01,75.9,23068.35
+SHP-000381,TGA,Madinah,Jazan,Road,Delivered,2025-05-14,2025-05-24,60.13,8661.73
+SHP-000382,TGA,Madinah,Riyadh,Logistics,Delivered,2025-04-14,2025-04-14,40.62,6596.52
+SHP-000383,TGA,Asir,Riyadh,Logistics,Delivered,2025-06-16,2025-06-16,79.58,33267.51
+SHP-000384,Mawani,Qassim,Makkah,Logistics,Delivered,2025-06-17,2025-06-17,20.59,35242.48
+SHP-000385,TGA,Makkah,Asir,Logistics,Delivered,2025-02-22,2025-02-22,48.65,7289.59
+SHP-000386,Mawani,Asir,Makkah,Road,In Transit,2025-01-27,,16.29,10387.59
+SHP-000387,SPL,Qassim,Riyadh,Logistics,Cancelled,2025-03-09,,39.96,10780.85
+SHP-000388,Mawani,Makkah,Jazan,Sea,Delivered,2025-05-04,2025-05-07,75.98,39086.55
+SHP-000389,TGA,Eastern,Asir,Road,Delayed,2025-01-20,2025-01-20,37.41,5440.54
+SHP-000390,SPL,Tabuk,Makkah,Sea,Delayed,2025-02-14,2025-02-14,68.17,44569.45
+SHP-000391,Mawani,Tabuk,Jazan,Logistics,Delivered,2025-01-03,2025-01-03,21.83,36786.86
+SHP-000392,SPL,Qassim,Asir,Road,Delivered,2025-04-06,2025-04-09,55.35,24173.13
+SHP-000393,TGA,Riyadh,Madinah,Sea,Delivered,2025-04-18,2025-04-18,33.57,29742.14
+SHP-000394,SPL,Tabuk,Madinah,Road,Delivered,2025-05-26,2025-06-02,73.67,6090.41
+SHP-000395,SPL,,Eastern,Logistics,Delivered,2025-04-16,2025-04-23,69.91,26195.43
+SHP-000396,TGA,Eastern,Qassim,Sea,Delivered,2025-06-26,2025-06-26,67.2,28138.04
+SHP-000397,Mawani,Jazan,Madinah,Sea,Delivered,2025-06-06,2025-06-06,60.24,16371.37
+SHP-000398,Mawani,Qassim,Eastern,Sea,Delivered,2025-03-26,2025-03-28,37.0,40162.43
+SHP-000399,SPL,Tabuk,Jazan,Logistics,Delayed,2025-04-25,2025-04-25,52.44,5580.84
+SHP-000400,Mawani,Makkah,Asir,Logistics,Delivered,2025-04-16,2025-04-16,45.21,32902.5
+SHP-000401,Mawani,Eastern,Tabuk,Logistics,Delivered,2025-04-27,2025-04-30,61.51,30197.58
+SHP-000402,Mawani,Makkah,Eastern,Sea,In Transit,2025-06-18,,27.64,41579.25
+SHP-000403,TGA,Makkah,Madinah,Road,Delivered,2025-03-16,2025-03-26,11.67,35984.38
+SHP-000404,Mawani,Eastern,Qassim,Sea,Delivered,2025-04-15,2025-04-15,36.84,39180.31
+SHP-000405,Mawani,Makkah,Jazan,Road,In Transit,2025-03-28,,52.85,47831.42
+SHP-000406,TGA,Riyadh,Qassim,Logistics,Delivered,2025-02-04,2025-02-11,38.89,25662.48
+SHP-000407,Mawani,Makkah,Tabuk,Logistics,In Transit,2025-02-15,,70.57,21223.9
+SHP-000408,SPL,Asir,Madinah,Sea,Delivered,2025-06-05,2025-06-06,33.31,35150.71
+SHP-000409,TGA,Tabuk,Eastern,Sea,In Transit,2025-05-12,,17.17,35862.03
+SHP-000410,Mawani,Madinah,Tabuk,Logistics,Delayed,2025-06-25,2025-06-28,9.67,17935.77
+SHP-000411,TGA,Asir,Qassim,Sea,Delivered,2025-05-03,2025-05-08,42.06,1750.97
+SHP-000412,Mawani,Asir,Madinah,Road,Delivered,2025-02-07,2025-02-07,54.83,7748.21
+SHP-000413,TGA,Riyadh,Jazan,Sea,Delivered,2025-01-16,2025-01-18,49.48,33938.54
+SHP-000414,TGA,Qassim,Asir,Logistics,In Transit,2025-05-24,,53.33,46361.0
+SHP-000415,TGA,Tabuk,Riyadh,Sea,Delayed,2025-04-10,2025-04-15,59.62,10552.82
+SHP-000416,TGA,Tabuk,Eastern,Logistics,Delayed,2025-04-24,2025-04-25,77.16,15061.8
+SHP-000417,Mawani,Makkah,Qassim,Road,Delivered,2025-02-15,2025-02-15,44.75,6938.29
+SHP-000418,SPL,,Tabuk,Logistics,Delivered,2025-05-30,2025-06-01,4.54,46652.9
+SHP-000419,TGA,Tabuk,Tabuk,Logistics,Delivered,2025-06-07,2025-06-09,17.99,9601.52
+SHP-000420,TGA,Qassim,Eastern,Sea,Delivered,2025-01-18,2025-01-28,53.24,16887.79
+SHP-000421,TGA,Jazan,Riyadh,Sea,Delayed,2025-03-17,2025-03-18,53.68,22560.53
+SHP-000422,TGA,Tabuk,Makkah,Road,Delayed,2025-06-14,2025-06-15,20.9,36336.79
+SHP-000423,SPL,Jazan,Asir,Logistics,In Transit,2025-01-07,,15.8,25937.79
+SHP-000424,TGA,Riyadh,Eastern,Logistics,Cancelled,2025-01-25,,50.55,11052.17
+SHP-000425,Mawani,Qassim,Makkah,Logistics,In Transit,2025-06-25,,55.04,1675.77
+SHP-000426,Mawani,Madinah,Makkah,Logistics,Delivered,2025-03-26,2025-03-26,65.82,45593.84
+SHP-000427,SPL,Qassim,Qassim,Logistics,Delivered,2025-04-15,2025-04-20,9.91,792.0
+SHP-000428,TGA,Riyadh,Makkah,Road,In Transit,2025-06-08,,74.28,5753.71
+SHP-000429,SPL,Jazan,Riyadh,Road,Delivered,2025-06-25,2025-06-27,12.93,11383.35
+SHP-000430,TGA,Madinah,Tabuk,Sea,Delivered,2025-04-11,2025-04-21,44.51,27975.95
+SHP-000431,TGA,Qassim,Makkah,Road,Delivered,2025-02-01,2025-02-01,17.2,37200.81
+SHP-000432,TGA,Madinah,Eastern,Logistics,Delivered,2025-03-30,2025-03-31,66.86,10119.15
+SHP-000433,TGA,Jazan,Makkah,Road,Delayed,2025-02-16,2025-02-16,53.9,12909.04
+SHP-000434,SPL,Madinah,Eastern,Sea,Delayed,2025-02-20,2025-02-27,23.17,3955.54
+SHP-000435,SPL,Asir,Madinah,Logistics,Delivered,2025-02-19,2025-02-22,45.57,40481.14
+SHP-000436,Mawani,Eastern,Qassim,Road,Delivered,2025-04-20,2025-04-20,67.29,7148.14
+SHP-000437,SPL,Asir,Makkah,Sea,Delivered,2025-03-26,2025-04-02,51.82,4557.7
+SHP-000438,Mawani,Asir,Makkah,Logistics,Delayed,2025-03-13,2025-03-13,6.49,1422.2
+SHP-000439,TGA,Qassim,Eastern,Sea,In Transit,2025-05-10,,44.35,27401.73
+SHP-000440,Mawani,Tabuk,Asir,Sea,Delivered,2025-05-19,2025-05-26,37.44,25765.39
+SHP-000441,TGA,Eastern,Madinah,Logistics,Delivered,2025-04-12,2025-04-15,11.66,8381.51
+SHP-000442,SPL,Tabuk,Jazan,Sea,In Transit,2025-05-25,,5.5,18787.04
+SHP-000443,SPL,Qassim,Jazan,Sea,Delivered,2025-01-11,2025-01-12,3.67,32601.98
+SHP-000444,SPL,Asir,Madinah,Road,Delivered,2025-01-27,2025-02-06,52.47,18582.19
+SHP-000445,SPL,Eastern,Tabuk,Road,Delivered,2025-06-17,2025-06-17,39.21,24364.45
+SHP-000446,Mawani,Jazan,Makkah,Logistics,Delivered,2025-06-04,2025-06-04,51.66,10970.1
+SHP-000447,TGA,Makkah,Qassim,Road,Delivered,2025-02-17,2025-02-17,57.76,24335.07
+SHP-000448,Mawani,,Riyadh,Sea,Delivered,2025-05-03,2025-05-10,46.09,8475.89
+SHP-000449,TGA,Madinah,Asir,Sea,Delivered,2025-06-11,2025-06-21,41.57,20570.09
+SHP-000450,TGA,Asir,Eastern,Road,Delayed,2025-05-25,2025-05-25,48.72,23834.97
+SHP-000451,SPL,Madinah,Madinah,Logistics,Delivered,2025-05-04,2025-05-04,52.94,13593.77
+SHP-000452,TGA,Makkah,Qassim,Sea,Delayed,2025-06-25,2025-06-28,9.13,10516.25
+SHP-000453,TGA,Makkah,Riyadh,Logistics,In Transit,2025-05-10,,40.51,6317.06
+SHP-000454,TGA,Riyadh,Qassim,Logistics,Delayed,2025-05-04,2025-05-04,33.94,43803.8
+SHP-000455,SPL,Qassim,Makkah,Road,Delivered,2025-06-28,2025-07-08,11.14,24118.49
+SHP-000456,TGA,Qassim,Riyadh,Logistics,Delivered,2025-03-01,2025-03-01,59.62,852.15
+SHP-000457,SPL,Eastern,Tabuk,Road,Delivered,2025-05-14,2025-05-14,29.3,8161.54
+SHP-000458,TGA,Qassim,Asir,Logistics,Delivered,2025-06-16,2025-06-18,32.1,10582.84
+SHP-000459,SPL,Jazan,Asir,Logistics,Delivered,2025-05-22,2025-06-01,27.88,35421.98
+SHP-000460,SPL,Madinah,Qassim,Road,In Transit,2025-02-05,,64.17,30894.26
+SHP-000461,TGA,Riyadh,Madinah,Road,Delivered,2025-06-25,2025-06-25,74.11,22051.18
+SHP-000462,Mawani,Riyadh,Qassim,Logistics,Delivered,2025-01-17,2025-01-19,52.67,14680.23
+SHP-000463,Mawani,Jazan,Eastern,Logistics,Delayed,2025-06-02,2025-06-02,74.5,26148.59
+SHP-000464,TGA,Eastern,Riyadh,Road,In Transit,2025-02-19,,19.52,514.22
+SHP-000465,SPL,Tabuk,Qassim,Logistics,Cancelled,2025-02-10,,16.42,1260.64
+SHP-000466,TGA,Asir,Tabuk,Road,Delayed,2025-06-30,2025-06-30,77.08,14187.14
+SHP-000467,SPL,Riyadh,Qassim,Logistics,Delivered,2025-06-05,2025-06-06,8.96,4083.11
+SHP-000468,TGA,Asir,Asir,Logistics,Delayed,2025-03-17,2025-03-20,35.7,19165.47
+SHP-000469,SPL,Jazan,Riyadh,Road,In Transit,2025-05-04,,9.74,3843.94
+SHP-000470,Mawani,Tabuk,Tabuk,Logistics,Delivered,2025-06-12,2025-06-13,43.08,35190.52
+SHP-000471,SPL,Tabuk,Madinah,Road,Delivered,2025-03-09,2025-03-10,25.45,11319.02
+SHP-000472,TGA,Eastern,Eastern,Sea,Delivered,2025-05-27,2025-05-29,58.97,43700.75
+SHP-000473,Mawani,Tabuk,Makkah,Sea,Delivered,2025-02-22,2025-02-23,73.65,33952.7
+SHP-000474,TGA,Riyadh,Tabuk,Logistics,Delivered,2025-06-19,2025-06-26,25.58,44957.0
+SHP-000475,TGA,Asir,Madinah,Sea,Delivered,2025-05-28,2025-05-30,42.3,21447.21
+SHP-000476,SPL,Madinah,Makkah,Logistics,Delivered,2025-05-19,2025-05-19,41.7,16124.74
+SHP-000477,SPL,Makkah,Asir,Sea,Delivered,2025-01-03,2025-01-03,44.11,12238.39
+SHP-000478,SPL,Qassim,Tabuk,Road,Delivered,2025-05-01,2025-05-04,68.42,14341.66
+SHP-000479,TGA,Eastern,Asir,Sea,Cancelled,2025-02-16,,44.65,42887.28
+SHP-000480,TGA,Madinah,Riyadh,Sea,In Transit,2025-02-20,,34.01,7156.35
+SHP-000481,SPL,Jazan,Riyadh,Road,Delivered,2025-06-11,2025-06-21,8.37,8585.42
+SHP-000482,TGA,Makkah,Tabuk,Road,Delivered,2025-02-25,2025-02-27,29.2,28237.33
+SHP-000483,Mawani,Tabuk,Eastern,Logistics,Delivered,2025-03-07,2025-03-10,46.28,32631.98
+SHP-000484,TGA,Jazan,Jazan,Sea,Delivered,2025-02-14,2025-02-16,30.8,14682.92
+SHP-000485,TGA,Tabuk,Qassim,Sea,Delayed,2025-06-11,2025-06-11,6.79,17509.46
+SHP-000486,TGA,Asir,Qassim,Road,Delivered,2025-03-22,2025-03-25,71.07,39158.21
+SHP-000487,SPL,Madinah,Riyadh,Sea,Delayed,2025-04-03,2025-04-13,58.36,33270.12
+SHP-000488,SPL,Makkah,Jazan,Logistics,Delivered,2025-06-29,2025-06-29,4.78,38661.22
+SHP-000489,TGA,Madinah,Qassim,Road,Delivered,2025-05-15,2025-05-15,18.73,37010.86
+SHP-000490,Mawani,,Tabuk,Road,Delivered,2025-04-24,2025-04-24,69.21,23626.08
+SHP-000491,Mawani,Madinah,Jazan,Logistics,Delivered,2025-05-19,2025-05-21,60.04,43926.04
+SHP-000492,TGA,Asir,Jazan,Logistics,Delivered,2025-04-22,2025-05-02,18.56,4932.92
+SHP-000493,Mawani,,Madinah,Road,Delivered,2025-03-20,2025-03-23,23.3,26987.39
+SHP-000494,SPL,,Qassim,Road,Delayed,2025-06-26,2025-07-03,47.96,39939.99
+SHP-000495,TGA,Qassim,Madinah,Logistics,Delivered,2025-05-21,2025-05-24,59.1,19791.3
+SHP-000496,SPL,Eastern,Asir,Road,Delivered,2025-04-07,2025-04-08,52.05,26831.24
+SHP-000497,Mawani,Madinah,Makkah,Logistics,Delivered,2025-03-10,2025-03-15,36.7,22911.98
+SHP-000498,Mawani,Madinah,Riyadh,Sea,Delivered,2025-06-29,2025-07-06,77.8,14464.67
+SHP-000499,Mawani,Makkah,Jazan,Sea,In Transit,2025-02-02,,27.68,15923.05
+SHP-000500,Mawani,Tabuk,Madinah,Sea,Delivered,2025-05-08,2025-05-11,21.69,19924.88
+SHP-000501,SPL,Qassim,Makkah,Logistics,Delivered,2025-05-20,2025-05-27,20.29,38675.65
+SHP-000502,Mawani,Eastern,Makkah,Logistics,In Transit,2025-04-24,,53.45,10818.13
+SHP-000503,Mawani,Riyadh,Makkah,Road,Delayed,2025-04-10,2025-04-12,38.76,15291.25
+SHP-000504,Mawani,Makkah,Qassim,Road,Delayed,2025-04-03,2025-04-03,1.7,39822.32
+SHP-000505,Mawani,Riyadh,Jazan,Logistics,Delivered,2025-05-30,2025-05-30,47.9,18884.23
+SHP-000506,Mawani,Tabuk,Riyadh,Sea,Delivered,2025-01-23,2025-01-24,28.76,8118.96
+SHP-000507,Mawani,Tabuk,Tabuk,Road,Delivered,2025-05-18,2025-05-18,58.79,1556.97
+SHP-000508,SPL,Riyadh,Jazan,Logistics,In Transit,2025-04-07,,23.93,35003.37
+SHP-000509,SPL,Jazan,Madinah,Sea,Delivered,2025-02-18,2025-02-18,42.73,22744.52
+SHP-000510,Mawani,Qassim,Riyadh,Logistics,Delivered,2025-03-09,2025-03-19,68.62,38912.82
+SHP-000511,TGA,Qassim,Jazan,Logistics,In Transit,2025-03-03,,12.75,14514.89
+SHP-000512,TGA,Makkah,Madinah,Sea,Delivered,2025-04-15,2025-04-18,69.94,10502.91
+SHP-000513,TGA,Qassim,Asir,Sea,Delivered,2025-05-05,2025-05-06,29.63,30494.7
+SHP-000514,Mawani,Jazan,Makkah,Road,Delayed,2025-01-19,2025-01-19,64.18,3504.66
+SHP-000515,TGA,Riyadh,Asir,Logistics,In Transit,2025-05-23,,3.73,3984.21
+SHP-000516,TGA,Makkah,Eastern,Logistics,Delayed,2025-03-19,2025-03-19,31.13,10059.41
+SHP-000517,Mawani,Qassim,Tabuk,Logistics,Delivered,2025-06-18,2025-06-19,36.97,33429.5
+SHP-000518,TGA,Qassim,Madinah,Logistics,In Transit,2025-01-27,,79.88,22429.1
+SHP-000519,SPL,Tabuk,Qassim,Logistics,Delivered,2025-04-01,2025-04-04,26.21,12415.77
+SHP-000520,TGA,Asir,Jazan,Road,Delivered,2025-05-20,2025-05-21,76.81,509.68
+SHP-000521,TGA,Madinah,Asir,Sea,Delivered,2025-01-09,2025-01-11,24.38,11483.39
+SHP-000522,TGA,Asir,Madinah,Sea,In Transit,2025-03-22,,3.5,18104.96
+SHP-000523,TGA,Eastern,Asir,Sea,Delivered,2025-02-05,2025-02-07,45.85,28668.71
+SHP-000524,SPL,Madinah,Makkah,Logistics,In Transit,2025-02-25,,51.56,2349.89
+SHP-000525,Mawani,Tabuk,Qassim,Road,Delivered,2025-05-28,2025-06-02,74.45,6466.76
+SHP-000526,TGA,Qassim,Riyadh,Road,Delivered,2025-02-28,2025-02-28,43.42,7904.21
+SHP-000527,TGA,Qassim,Makkah,Sea,Delivered,2025-05-09,2025-05-10,34.84,39425.23
+SHP-000528,SPL,Riyadh,Asir,Sea,Delivered,2025-02-07,2025-02-07,32.18,22007.31
+SHP-000529,SPL,Eastern,Eastern,Logistics,In Transit,2025-06-28,,49.47,36915.55
+SHP-000530,SPL,Tabuk,Makkah,Sea,Delivered,2025-03-05,2025-03-06,53.9,21465.26
+SHP-000531,TGA,Riyadh,Madinah,Road,Delivered,2025-03-31,2025-04-01,49.49,49512.88
+SHP-000532,Mawani,Eastern,Madinah,Logistics,Delivered,2025-04-24,2025-04-24,68.29,6062.4
+SHP-000533,Mawani,,Makkah,Road,Delayed,2025-01-14,2025-01-15,36.28,1626.03
+SHP-000534,TGA,Asir,Madinah,Logistics,Delivered,2025-02-23,2025-03-05,56.05,1410.23
+SHP-000535,Mawani,Riyadh,Asir,Sea,Delivered,2025-05-30,2025-06-09,37.46,47286.24
+SHP-000536,TGA,Tabuk,Riyadh,Road,Delivered,2025-01-18,2025-01-23,69.46,32645.85
+SHP-000537,TGA,Makkah,Jazan,Logistics,Delivered,2025-03-01,2025-03-06,42.76,9727.66
+SHP-000538,TGA,,Asir,Road,Delivered,2025-05-09,2025-05-16,39.45,37347.34
+SHP-000539,SPL,Asir,Asir,Sea,Delivered,2025-01-05,2025-01-08,50.25,43994.53
+SHP-000540,Mawani,Madinah,Qassim,Logistics,Delayed,2025-01-08,2025-01-18,11.41,36629.54
+SHP-000541,TGA,Madinah,Asir,Logistics,Delivered,2025-05-14,2025-05-15,26.68,27340.57
+SHP-000542,TGA,Eastern,Asir,Logistics,Delivered,2025-02-22,2025-02-22,56.56,26428.37
+SHP-000543,Mawani,Madinah,Makkah,Sea,Cancelled,2025-02-04,,25.75,44042.09
+SHP-000544,SPL,Qassim,Asir,Sea,Delayed,2025-01-08,2025-01-11,62.44,5785.19
+SHP-000545,TGA,Asir,Eastern,Logistics,In Transit,2025-02-17,,18.96,34525.21
+SHP-000546,SPL,Madinah,Jazan,Logistics,Delivered,2025-04-02,2025-04-02,52.14,9606.84
+SHP-000547,Mawani,Eastern,Qassim,Sea,Delivered,2025-04-10,2025-04-17,74.07,47534.8
+SHP-000548,Mawani,Madinah,Jazan,Logistics,In Transit,2025-02-26,,39.45,16582.33
+SHP-000549,Mawani,Qassim,Qassim,Logistics,Delivered,2025-04-28,2025-04-29,75.16,28810.76
+SHP-000550,TGA,Riyadh,Jazan,Road,Delivered,2025-05-18,2025-05-28,66.25,2599.59
+SHP-000551,TGA,Riyadh,Riyadh,Sea,Delivered,2025-03-04,2025-03-14,23.65,20202.97
+SHP-000552,SPL,Asir,Riyadh,Logistics,Delivered,2025-03-19,2025-03-21,41.6,7540.86
+SHP-000553,TGA,Makkah,Madinah,Road,Delivered,2025-06-15,2025-06-22,33.38,22818.85
+SHP-000554,TGA,Eastern,Makkah,Road,Delivered,2025-02-15,2025-02-22,26.26,32604.53
+SHP-000555,TGA,Jazan,Makkah,Logistics,Delivered,2025-02-11,2025-02-11,56.73,36480.25
+SHP-000556,SPL,Riyadh,Tabuk,Logistics,Delivered,2025-05-11,2025-05-11,69.77,43202.29
+SHP-000557,TGA,Riyadh,Asir,Logistics,Delivered,2025-02-11,2025-02-11,61.61,22589.78
+SHP-000558,Mawani,,Asir,Sea,Delivered,2025-06-10,2025-06-10,36.96,42842.85
+SHP-000559,SPL,Eastern,Jazan,Road,Delivered,2025-05-20,2025-05-20,33.11,4430.54
+SHP-000560,TGA,Asir,Eastern,Sea,Delivered,2025-06-03,2025-06-03,15.19,3225.66
+SHP-000561,Mawani,Asir,Makkah,Sea,Delivered,2025-03-31,2025-03-31,9.16,49689.89
+SHP-000562,TGA,Madinah,Tabuk,Sea,Delivered,2025-02-11,2025-02-13,7.9,15315.08
+SHP-000563,SPL,Makkah,Madinah,Sea,In Transit,2025-04-05,,55.72,14083.72
+SHP-000564,TGA,Eastern,Makkah,Logistics,Delivered,2025-05-15,2025-05-20,58.51,31634.44
+SHP-000565,TGA,Asir,Tabuk,Road,In Transit,2025-01-23,,42.27,49753.7
+SHP-000566,SPL,Jazan,Madinah,Logistics,Delivered,2025-04-01,2025-04-01,19.0,14879.16
+SHP-000567,SPL,Makkah,Eastern,Logistics,Delivered,2025-02-19,2025-02-19,79.92,20995.04
+SHP-000568,TGA,,Eastern,Logistics,Delivered,2025-03-27,2025-03-30,22.89,39614.68
+SHP-000569,SPL,Riyadh,Tabuk,Road,Delivered,2025-03-20,2025-03-22,31.99,28661.62
+SHP-000570,SPL,Jazan,Riyadh,Logistics,Delivered,2025-01-08,2025-01-08,11.29,8191.62
+SHP-000571,SPL,Qassim,Riyadh,Logistics,Delayed,2025-04-28,2025-05-08,24.3,36385.73
+SHP-000572,Mawani,Tabuk,Tabuk,Sea,Delivered,2025-03-22,2025-04-01,77.58,14382.77
+SHP-000573,TGA,Madinah,Qassim,Sea,Cancelled,2025-01-08,,47.82,43297.39
+SHP-000574,SPL,Qassim,Eastern,Road,In Transit,2025-03-20,,36.43,47560.97
+SHP-000575,Mawani,Tabuk,Eastern,Sea,Delivered,2025-02-25,2025-03-07,35.78,1734.27
+SHP-000576,SPL,Jazan,Asir,Road,Delivered,2025-05-04,2025-05-14,11.89,43654.05
+SHP-000577,Mawani,Jazan,Makkah,Sea,Delivered,2025-05-13,2025-05-13,25.22,2679.48
+SHP-000578,Mawani,Makkah,Asir,Sea,Delivered,2025-06-02,2025-06-02,46.42,15951.07
+SHP-000579,SPL,Asir,Jazan,Logistics,Delivered,2025-02-23,2025-02-26,9.85,7891.38
+SHP-000580,TGA,Makkah,Tabuk,Logistics,Delivered,2025-03-12,2025-03-12,25.82,7507.06
+SHP-000581,Mawani,Makkah,Tabuk,Logistics,Delivered,2025-06-30,2025-07-02,35.77,6938.66
+SHP-000582,Mawani,Makkah,Madinah,Logistics,Delivered,2025-05-01,2025-05-01,47.89,29841.43
+SHP-000583,SPL,Tabuk,Makkah,Road,Delivered,2025-06-26,2025-07-03,45.64,5099.35
+SHP-000584,SPL,Jazan,Eastern,Sea,Delivered,2025-06-28,2025-07-05,68.96,31038.63
+SHP-000585,TGA,Tabuk,Tabuk,Road,Delivered,2025-04-04,2025-04-09,39.26,3735.58
+SHP-000586,Mawani,Asir,Madinah,Logistics,Delivered,2025-01-29,2025-02-01,8.68,40968.87
+SHP-000587,Mawani,Asir,Qassim,Logistics,Delivered,2025-01-28,2025-01-31,33.37,31233.3
+SHP-000588,SPL,Makkah,Qassim,Road,Cancelled,2025-05-21,,45.59,17438.94
+SHP-000589,TGA,Makkah,Jazan,Sea,Delivered,2025-06-27,2025-06-28,47.58,23413.97
+SHP-000590,Mawani,Asir,Makkah,Logistics,In Transit,2025-05-23,,9.15,40796.3
+SHP-000591,TGA,Riyadh,Madinah,Logistics,Delivered,2025-04-08,2025-04-11,72.31,31988.57
+SHP-000592,SPL,Asir,Jazan,Sea,Delivered,2025-01-01,2025-01-01,16.85,43932.55
+SHP-000593,SPL,Tabuk,Riyadh,Logistics,Delayed,2025-03-18,2025-03-20,78.92,20507.77
+SHP-000594,TGA,,Tabuk,Sea,Delivered,2025-02-02,2025-02-04,68.97,43351.14
+SHP-000595,SPL,Tabuk,Qassim,Road,In Transit,2025-03-02,,35.1,10955.2
+SHP-000596,TGA,Qassim,Tabuk,Road,Delivered,2025-02-14,2025-02-21,12.76,49874.07
+SHP-000597,Mawani,Riyadh,Jazan,Logistics,Delivered,2025-06-21,2025-06-21,35.22,49515.77
+SHP-000598,SPL,Jazan,Qassim,Logistics,Delivered,2025-01-22,2025-01-22,14.79,25716.04
+SHP-000599,Mawani,Madinah,Riyadh,Logistics,Delivered,2025-05-22,2025-05-29,40.1,36680.21
+SHP-000600,TGA,,Riyadh,Logistics,Delivered,2025-05-09,2025-05-11,38.92,18744.64
+SHP-000601,Mawani,Madinah,Asir,Road,Delayed,2025-05-29,2025-06-05,41.6,26406.16
+SHP-000602,TGA,Makkah,Asir,Logistics,Delivered,2025-06-06,2025-06-06,4.7,17505.54
+SHP-000603,SPL,Tabuk,Asir,Road,Delivered,2025-01-03,2025-01-10,13.82,34905.03
+SHP-000604,TGA,Asir,Jazan,Logistics,In Transit,2025-06-02,,13.94,3055.18
+SHP-000605,Mawani,Madinah,Asir,Road,Delivered,2025-03-16,2025-03-16,11.04,14408.11
+SHP-000606,TGA,Madinah,Madinah,Logistics,In Transit,2025-03-07,,36.01,40488.11
+SHP-000607,TGA,Riyadh,Makkah,Sea,Delivered,2025-03-08,2025-03-09,47.85,41175.33
+SHP-000608,Mawani,Jazan,Madinah,Sea,In Transit,2025-05-07,,46.43,42170.74
+SHP-000609,Mawani,Riyadh,Qassim,Road,In Transit,2025-01-14,,24.46,37434.45
+SHP-000610,TGA,Qassim,Madinah,Logistics,Delivered,2025-05-17,2025-05-18,69.69,1087.22
+SHP-000611,TGA,Riyadh,Tabuk,Road,Delivered,2025-04-25,2025-04-30,49.03,32777.26
+SHP-000612,Mawani,Asir,Qassim,Road,Delivered,2025-03-11,2025-03-14,61.97,37580.0
+SHP-000613,TGA,Madinah,Riyadh,Logistics,Delivered,2025-06-22,2025-06-23,1.17,3863.62
+SHP-000614,TGA,Jazan,Asir,Road,Delivered,2025-04-16,2025-04-16,15.85,1673.17
+SHP-000615,TGA,Eastern,Makkah,Logistics,Delayed,2025-01-24,2025-01-24,76.64,4776.13
+SHP-000616,TGA,Madinah,Madinah,Road,Delivered,2025-06-04,2025-06-04,23.92,33193.65
+SHP-000617,SPL,Qassim,Tabuk,Road,Delayed,2025-01-20,2025-01-27,13.38,4162.85
+SHP-000618,Mawani,Asir,Asir,Sea,Delivered,2025-01-16,2025-01-21,35.53,24840.23
+SHP-000619,SPL,Makkah,Qassim,Sea,Delivered,2025-02-21,2025-02-26,49.31,5759.36
+SHP-000620,Mawani,Makkah,Asir,Road,Delivered,2025-04-24,2025-04-26,1.99,25136.22
+SHP-000621,TGA,Qassim,Tabuk,Road,Delayed,2025-06-17,2025-06-17,46.18,26011.46
+SHP-000622,TGA,Makkah,Riyadh,Road,Delivered,2025-05-06,2025-05-13,76.36,40989.84
+SHP-000623,SPL,Tabuk,Qassim,Sea,Delivered,2025-05-04,2025-05-04,50.77,47961.78
+SHP-000624,SPL,Makkah,Asir,Logistics,Delivered,2025-01-24,2025-01-27,16.65,27946.54
+SHP-000625,SPL,Makkah,Tabuk,Road,Delivered,2025-04-09,2025-04-10,7.25,31823.17
+SHP-000626,Mawani,Eastern,Makkah,Logistics,Delivered,2025-02-18,2025-02-18,51.65,25234.37
+SHP-000627,Mawani,Tabuk,Riyadh,Road,Delivered,2025-04-26,2025-04-26,9.9,40451.63
+SHP-000628,TGA,Madinah,Eastern,Sea,Delivered,2025-06-20,2025-06-30,3.43,7508.73
+SHP-000629,TGA,Riyadh,Madinah,Sea,Delivered,2025-06-17,2025-06-17,14.19,2972.92
+SHP-000630,Mawani,Makkah,Makkah,Sea,Delivered,2025-03-20,2025-03-20,40.02,40059.17
+SHP-000631,SPL,Tabuk,Qassim,Road,In Transit,2025-02-26,,10.1,34362.37
+SHP-000632,Mawani,Riyadh,Tabuk,Sea,Delivered,2025-05-20,2025-05-20,10.1,7491.22
+SHP-000633,TGA,Madinah,Riyadh,Sea,Delivered,2025-04-17,2025-04-17,8.45,42444.65
+SHP-000634,Mawani,Jazan,Riyadh,Sea,In Transit,2025-06-06,,74.13,35483.69
+SHP-000635,SPL,Madinah,Asir,Logistics,Delivered,2025-06-01,2025-06-03,36.31,12343.06
+SHP-000636,TGA,Jazan,Makkah,Logistics,Delivered,2025-02-14,2025-02-14,66.21,15409.39
+SHP-000637,Mawani,Makkah,Makkah,Logistics,Delivered,2025-04-18,2025-04-18,29.27,38175.85
+SHP-000638,TGA,Eastern,Eastern,Sea,Delivered,2025-05-19,2025-05-29,63.83,34419.57
+SHP-000639,TGA,Riyadh,Tabuk,Road,Delivered,2025-05-02,2025-05-09,17.16,12943.4
+SHP-000640,TGA,Riyadh,Madinah,Sea,Delivered,2025-06-07,2025-06-14,62.95,24510.54
+SHP-000641,TGA,Jazan,Tabuk,Road,Delayed,2025-01-30,2025-01-30,16.3,34004.2
+SHP-000642,SPL,Eastern,Qassim,Sea,In Transit,2025-03-25,,30.35,11422.81
+SHP-000643,SPL,Madinah,Jazan,Sea,Delivered,2025-05-01,2025-05-08,31.29,7252.03
+SHP-000644,Mawani,Tabuk,Riyadh,Road,Cancelled,2025-02-19,,11.35,42656.74
+SHP-000645,SPL,Eastern,Madinah,Logistics,Delivered,2025-04-28,2025-05-03,76.24,45326.12
+SHP-000646,Mawani,Qassim,Jazan,Sea,Delayed,2025-05-28,2025-06-07,47.53,41930.96
+SHP-000647,TGA,Eastern,Qassim,Logistics,In Transit,2025-03-13,,18.18,46410.24
+SHP-000648,Mawani,Riyadh,Riyadh,Road,Delivered,2025-02-08,2025-02-08,42.72,24223.83
+SHP-000649,Mawani,Makkah,Riyadh,Logistics,Delivered,2025-06-28,2025-06-28,58.68,47521.73
+SHP-000650,TGA,,Asir,Sea,Delivered,2025-02-03,2025-02-06,56.41,42967.14
+SHP-000651,SPL,Madinah,Qassim,Sea,Cancelled,2025-05-30,,63.29,18835.81
+SHP-000652,Mawani,Qassim,Tabuk,Logistics,Delayed,2025-04-29,2025-04-29,3.1,21582.16
+SHP-000653,Mawani,Makkah,Tabuk,Logistics,Delivered,2025-03-11,2025-03-21,74.61,25979.46
+SHP-000654,Mawani,Qassim,Riyadh,Road,Delayed,2025-06-22,2025-06-25,29.63,32584.55
+SHP-000655,Mawani,Madinah,Eastern,Logistics,Delivered,2025-06-30,2025-06-30,9.53,24185.43
+SHP-000656,Mawani,Tabuk,Asir,Logistics,In Transit,2025-05-29,,54.58,14218.69
+SHP-000657,SPL,Makkah,Asir,Road,Delivered,2025-01-17,2025-01-20,49.87,40095.24
+SHP-000658,SPL,Makkah,Madinah,Road,Delivered,2025-06-27,2025-06-27,76.68,4308.89
+SHP-000659,Mawani,Jazan,Eastern,Logistics,Delivered,2025-02-12,2025-02-14,76.19,1623.17
+SHP-000660,SPL,Tabuk,Riyadh,Road,Delayed,2025-04-17,2025-04-27,15.53,1590.81
+SHP-000661,SPL,Tabuk,Tabuk,Road,Delivered,2025-03-01,2025-03-11,47.67,34994.75
+SHP-000662,TGA,Madinah,Asir,Sea,Delivered,2025-05-21,2025-05-28,63.25,11725.71
+SHP-000663,Mawani,Madinah,Jazan,Sea,In Transit,2025-04-06,,49.68,8459.1
+SHP-000664,Mawani,Madinah,Makkah,Sea,Delivered,2025-05-18,2025-05-20,79.5,28939.0
+SHP-000665,Mawani,Riyadh,Tabuk,Sea,Delivered,2025-04-23,2025-04-25,30.15,27223.4
+SHP-000666,Mawani,Qassim,Madinah,Road,Delivered,2025-02-11,2025-02-21,74.26,8224.64
+SHP-000667,TGA,Asir,Asir,Logistics,Delivered,2025-05-20,2025-05-30,53.52,40079.02
+SHP-000668,TGA,Jazan,Madinah,Logistics,Delivered,2025-04-24,2025-04-27,44.3,15750.07
+SHP-000669,Mawani,Tabuk,Eastern,Logistics,Delivered,2025-04-13,2025-04-14,42.35,39173.53
+SHP-000670,TGA,Jazan,Makkah,Logistics,Delivered,2025-03-13,2025-03-14,31.86,24778.04
+SHP-000671,TGA,Tabuk,Qassim,Road,Delayed,2025-06-04,2025-06-14,31.2,1103.44
+SHP-000672,SPL,Makkah,Jazan,Logistics,Delivered,2025-03-30,2025-04-02,79.41,40282.43
+SHP-000673,SPL,Qassim,Makkah,Sea,In Transit,2025-03-15,,17.02,23993.35
+SHP-000674,TGA,Qassim,Qassim,Logistics,Delivered,2025-05-15,2025-05-18,73.2,21018.44
+SHP-000675,Mawani,Eastern,Qassim,Road,In Transit,2025-05-23,,44.53,2590.53
+SHP-000676,TGA,Jazan,Riyadh,Sea,Delivered,2025-03-19,2025-03-21,21.38,47823.32
+SHP-000677,TGA,Asir,Jazan,Logistics,Delivered,2025-06-12,2025-06-19,51.76,1907.91
+SHP-000678,Mawani,Tabuk,Qassim,Road,Cancelled,2025-03-12,,50.43,24064.02
+SHP-000679,TGA,Riyadh,Madinah,Logistics,Delivered,2025-06-27,2025-06-27,5.15,16324.22
+SHP-000680,Mawani,Asir,Tabuk,Sea,Delivered,2025-06-27,2025-06-27,23.54,26715.81
+SHP-000681,TGA,Madinah,Madinah,Logistics,Delivered,2025-01-20,2025-01-30,26.15,16152.42
+SHP-000682,TGA,Tabuk,Tabuk,Sea,Delivered,2025-06-25,2025-06-27,1.53,26149.45
+SHP-000683,Mawani,Makkah,Eastern,Sea,Delivered,2025-04-06,2025-04-13,63.71,28153.43
+SHP-000684,TGA,Makkah,Makkah,Sea,In Transit,2025-06-26,,65.6,46208.78
+SHP-000685,SPL,Madinah,Tabuk,Sea,Delivered,2025-05-03,2025-05-06,56.94,1923.6
+SHP-000686,TGA,Madinah,Asir,Sea,Delivered,2025-01-31,2025-02-01,17.18,49064.92
+SHP-000687,SPL,Qassim,Makkah,Sea,Delivered,2025-04-19,2025-04-19,63.55,25917.22
+SHP-000688,SPL,Riyadh,Riyadh,Sea,Delivered,2025-01-16,2025-01-23,62.7,46044.85
+SHP-000689,SPL,Riyadh,Asir,Logistics,Delivered,2025-02-22,2025-02-23,28.15,8447.59
+SHP-000690,Mawani,Makkah,Riyadh,Logistics,Delivered,2025-05-09,2025-05-10,17.75,9981.6
+SHP-000691,TGA,Riyadh,Makkah,Sea,Delayed,2025-03-14,2025-03-14,73.68,42639.19
+SHP-000692,Mawani,Jazan,Makkah,Sea,Delivered,2025-05-02,2025-05-05,66.86,49074.41
+SHP-000693,SPL,Makkah,Tabuk,Sea,Delivered,2025-04-19,2025-04-20,37.54,26226.52
+SHP-000694,TGA,Riyadh,Jazan,Sea,In Transit,2025-05-07,,31.09,23118.82
+SHP-000695,SPL,Asir,Qassim,Sea,Delivered,2025-03-21,2025-03-28,68.61,44790.36
+SHP-000696,TGA,Jazan,Qassim,Road,Delivered,2025-05-02,2025-05-05,42.05,33987.67
+SHP-000697,TGA,Makkah,Madinah,Sea,Delivered,2025-01-31,2025-01-31,29.41,10354.78
+SHP-000698,SPL,Jazan,Asir,Logistics,Delivered,2025-02-21,2025-02-26,75.49,18126.82
+SHP-000699,TGA,Asir,Jazan,Sea,Cancelled,2025-06-20,,10.21,24722.4
+SHP-000700,TGA,Riyadh,Jazan,Logistics,Delivered,2025-03-01,2025-03-01,2.63,9365.24
+SHP-000701,TGA,Makkah,Jazan,Road,Delivered,2025-06-04,2025-06-07,16.55,33273.62
+SHP-000702,SPL,Riyadh,Riyadh,Road,Delivered,2025-05-06,2025-05-16,70.47,6397.14
+SHP-000703,SPL,,Madinah,Logistics,Delayed,2025-04-26,2025-04-29,52.92,39079.43
+SHP-000704,Mawani,Asir,Jazan,Sea,Delivered,2025-06-30,2025-06-30,45.72,24782.41
+SHP-000705,SPL,Madinah,Qassim,Road,Delivered,2025-05-22,2025-06-01,39.83,48558.1
+SHP-000706,SPL,Tabuk,Riyadh,Sea,In Transit,2025-06-07,,67.04,17769.4
+SHP-000707,TGA,Tabuk,Qassim,Road,In Transit,2025-05-30,,79.36,20890.52
+SHP-000708,TGA,Asir,Makkah,Road,Delivered,2025-01-15,2025-01-16,9.6,8904.07
+SHP-000709,TGA,Qassim,Qassim,Road,Delivered,2025-05-18,2025-05-21,2.12,23750.15
+SHP-000710,SPL,Tabuk,Jazan,Sea,Delivered,2025-01-06,2025-01-09,55.42,10692.46
+SHP-000711,TGA,Tabuk,Asir,Road,In Transit,2025-05-08,,77.57,10487.05
+SHP-000712,TGA,Eastern,Riyadh,Road,In Transit,2025-06-12,,79.7,20400.35
+SHP-000713,TGA,Makkah,Asir,Sea,In Transit,2025-02-27,,45.53,26787.65
+SHP-000714,Mawani,Asir,Asir,Road,Delivered,2025-04-20,2025-04-21,53.24,16010.97
+SHP-000715,TGA,Jazan,Madinah,Sea,Delivered,2025-04-17,2025-04-22,50.41,26053.09
+SHP-000716,TGA,Jazan,Qassim,Logistics,Delivered,2025-02-17,2025-02-24,58.27,3464.14
+SHP-000717,Mawani,Madinah,Asir,Road,Delivered,2025-02-21,2025-02-24,33.12,43079.2
+SHP-000718,SPL,Asir,Asir,Logistics,In Transit,2025-01-17,,48.3,20590.36
+SHP-000719,Mawani,Asir,Qassim,Road,Delivered,2025-01-30,2025-01-30,51.93,2331.68
+SHP-000720,SPL,Asir,Madinah,Logistics,Delivered,2025-02-10,2025-02-12,68.28,48207.45
+SHP-000721,Mawani,Tabuk,Makkah,Road,Delivered,2025-05-05,2025-05-05,71.79,33747.77
+SHP-000722,TGA,Madinah,Makkah,Logistics,Delayed,2025-01-24,2025-01-29,53.31,29230.78
+SHP-000723,Mawani,Eastern,Tabuk,Road,Delivered,2025-05-15,2025-05-17,66.67,36993.2
+SHP-000724,Mawani,Madinah,Asir,Road,Delivered,2025-03-02,2025-03-07,32.97,43213.55
+SHP-000725,TGA,Makkah,Qassim,Road,Delivered,2025-01-15,2025-01-22,54.78,48184.11
+SHP-000726,SPL,,Riyadh,Logistics,Delivered,2025-02-07,2025-02-10,53.15,47071.99
+SHP-000727,SPL,Asir,Tabuk,Logistics,Delivered,2025-06-26,2025-06-27,10.2,43414.17
+SHP-000728,SPL,Asir,Eastern,Road,Delivered,2025-04-24,2025-04-29,17.23,44567.21
+SHP-000729,TGA,Qassim,Asir,Sea,Delayed,2025-04-23,2025-04-26,65.94,47054.52
+SHP-000730,SPL,Qassim,Makkah,Sea,Delayed,2025-05-01,2025-05-06,56.03,25563.56
+SHP-000731,TGA,Tabuk,Riyadh,Sea,Delivered,2025-04-01,2025-04-06,51.49,9595.11
+SHP-000732,Mawani,Asir,Makkah,Sea,Delivered,2025-04-24,2025-04-24,13.05,26060.11
+SHP-000733,TGA,Qassim,Tabuk,Road,In Transit,2025-06-16,,38.53,36891.02
+SHP-000734,SPL,Asir,Qassim,Road,Delivered,2025-03-08,2025-03-08,14.96,43881.31
+SHP-000735,Mawani,Eastern,Jazan,Sea,Delivered,2025-05-27,2025-05-28,21.31,42665.63
+SHP-000736,TGA,Asir,Tabuk,Sea,Delivered,2025-01-13,2025-01-18,75.81,6308.85
+SHP-000737,SPL,Jazan,Eastern,Sea,In Transit,2025-05-15,,75.71,40763.92
+SHP-000738,SPL,Madinah,Eastern,Logistics,In Transit,2025-03-10,,17.64,41292.4
+SHP-000739,SPL,,Asir,Sea,Delivered,2025-06-23,2025-06-24,49.61,45412.75
+SHP-000740,SPL,Madinah,Qassim,Logistics,Delivered,2025-04-05,2025-04-12,17.37,19483.03
+SHP-000741,TGA,Riyadh,Eastern,Road,Delivered,2025-04-19,2025-04-21,72.7,49838.6
+SHP-000742,TGA,Qassim,Qassim,Logistics,Delivered,2025-06-21,2025-06-21,29.99,48418.86
+SHP-000743,SPL,Madinah,Tabuk,Road,Delivered,2025-05-24,2025-05-24,10.99,16207.21
+SHP-000744,Mawani,Tabuk,Madinah,Road,Delivered,2025-05-16,2025-05-21,69.8,41822.8
+SHP-000745,SPL,Asir,Qassim,Sea,Delivered,2025-04-03,2025-04-08,25.59,49730.97
+SHP-000746,TGA,Jazan,Madinah,Sea,Delayed,2025-02-08,2025-02-18,18.77,2275.18
+SHP-000747,SPL,Makkah,Jazan,Sea,In Transit,2025-03-08,,35.6,49446.52
+SHP-000748,Mawani,Madinah,Makkah,Sea,Delivered,2025-05-24,2025-05-31,69.52,9442.42
+SHP-000749,TGA,Eastern,Riyadh,Logistics,In Transit,2025-02-13,,61.46,9438.16
+SHP-000750,TGA,Makkah,Riyadh,Road,In Transit,2025-01-20,,54.66,34191.65
+SHP-000751,Mawani,Tabuk,Makkah,Road,Delivered,2025-04-11,2025-04-14,66.54,33147.2
+SHP-000752,Mawani,Tabuk,Jazan,Road,Delivered,2025-04-27,2025-04-29,75.82,49991.14
+SHP-000753,Mawani,Asir,Riyadh,Logistics,Delivered,2025-05-26,2025-05-26,6.12,47619.06
+SHP-000754,Mawani,Eastern,Qassim,Sea,Delivered,2025-04-08,2025-04-08,2.13,10807.03
+SHP-000755,TGA,Madinah,Jazan,Road,Delivered,2025-04-10,2025-04-15,59.0,46124.14
+SHP-000756,Mawani,Tabuk,Jazan,Road,Delivered,2025-06-25,2025-06-25,70.89,24083.76
+SHP-000757,SPL,Tabuk,Qassim,Logistics,Delivered,2025-05-25,2025-05-30,34.37,2501.69
+SHP-000758,TGA,Madinah,Makkah,Road,Delivered,2025-03-29,2025-04-05,37.72,4419.56
+SHP-000759,Mawani,Asir,Qassim,Road,Delivered,2025-05-03,2025-05-05,45.7,27774.22
+SHP-000760,SPL,Qassim,Asir,Road,Delivered,2025-01-12,2025-01-22,20.76,4547.59
+SHP-000761,TGA,Jazan,Madinah,Road,Delivered,2025-05-09,2025-05-09,4.1,21104.45
+SHP-000762,TGA,Jazan,Jazan,Logistics,Delivered,2025-06-30,2025-07-02,64.72,17396.05
+SHP-000763,TGA,Asir,Makkah,Road,Delivered,2025-02-17,2025-02-18,42.98,789.43
+SHP-000764,SPL,Jazan,Jazan,Road,Delivered,2025-01-30,2025-01-30,49.67,48709.13
+SHP-000765,Mawani,Madinah,Eastern,Sea,In Transit,2025-04-03,,65.37,34953.61
+SHP-000766,TGA,Madinah,Qassim,Logistics,Delivered,2025-02-18,2025-02-18,68.73,27159.84
+SHP-000767,Mawani,Jazan,Makkah,Sea,In Transit,2025-01-23,,72.24,37069.67
+SHP-000768,SPL,Eastern,Qassim,Sea,Delivered,2025-04-24,2025-05-01,27.04,5581.84
+SHP-000769,TGA,,Qassim,Road,In Transit,2025-04-21,,41.31,36368.4
+SHP-000770,Mawani,Riyadh,Tabuk,Logistics,Delivered,2025-06-23,2025-06-30,5.55,44697.42
+SHP-000771,TGA,Tabuk,Qassim,Sea,Delivered,2025-04-17,2025-04-24,13.33,36447.35
+SHP-000772,TGA,Eastern,Tabuk,Logistics,Delivered,2025-05-01,2025-05-04,68.35,35902.36
+SHP-000773,TGA,Qassim,Tabuk,Road,Delayed,2025-04-30,2025-04-30,64.08,42304.3
+SHP-000774,TGA,Makkah,Madinah,Sea,Delivered,2025-06-09,2025-06-10,16.36,30484.58
+SHP-000775,SPL,Asir,Riyadh,Sea,Delayed,2025-01-26,2025-01-31,29.02,13410.0
+SHP-000776,TGA,Riyadh,Tabuk,Road,Delivered,2025-06-23,2025-06-23,9.56,11721.17
+SHP-000777,SPL,Tabuk,Asir,Sea,Delivered,2025-05-24,2025-05-25,68.35,43747.94
+SHP-000778,SPL,Jazan,Makkah,Sea,In Transit,2025-06-04,,62.64,30677.96
+SHP-000779,Mawani,Madinah,Eastern,Road,Delivered,2025-01-27,2025-02-06,12.98,14960.09
+SHP-000780,Mawani,Madinah,Tabuk,Sea,Delivered,2025-04-24,2025-05-04,10.28,10493.57
+SHP-000781,SPL,Tabuk,Madinah,Sea,Delivered,2025-04-17,2025-04-17,21.65,35902.39
+SHP-000782,Mawani,Madinah,Qassim,Sea,Delivered,2025-04-17,2025-04-20,11.47,21726.73
+SHP-000783,TGA,Tabuk,Jazan,Sea,Delayed,2025-04-15,2025-04-22,61.73,36022.47
+SHP-000784,SPL,Qassim,Madinah,Road,Delivered,2025-05-13,2025-05-13,5.39,38080.02
+SHP-000785,Mawani,Asir,Asir,Logistics,Delayed,2025-06-19,2025-06-19,59.54,45506.93
+SHP-000786,TGA,Madinah,Jazan,Logistics,Delayed,2025-01-03,2025-01-05,16.81,27449.05
+SHP-000787,TGA,Qassim,Asir,Sea,Delivered,2025-06-08,2025-06-15,3.44,17057.4
+SHP-000788,SPL,Eastern,Asir,Logistics,Cancelled,2025-02-02,,27.59,31966.43
+SHP-000789,TGA,Asir,Asir,Logistics,Delayed,2025-01-06,2025-01-06,34.11,25511.09
+SHP-000790,TGA,Tabuk,Makkah,Road,Delivered,2025-01-16,2025-01-19,24.19,36974.51
+SHP-000791,TGA,Eastern,Asir,Logistics,Cancelled,2025-04-27,,62.89,35885.3
+SHP-000792,TGA,Eastern,Eastern,Road,In Transit,2025-06-22,,36.62,7754.39
+SHP-000793,Mawani,Qassim,Jazan,Sea,Delivered,2025-04-19,2025-04-24,35.97,18780.06
+SHP-000794,TGA,Qassim,Jazan,Logistics,Delivered,2025-05-15,2025-05-20,34.16,22283.96
+SHP-000795,Mawani,Madinah,Jazan,Sea,In Transit,2025-05-06,,77.46,25902.68
+SHP-000796,SPL,,Madinah,Logistics,Delivered,2025-05-16,2025-05-16,29.86,47615.18
+SHP-000797,SPL,Asir,Madinah,Sea,Delivered,2025-06-04,2025-06-09,30.03,49555.5
+SHP-000798,Mawani,Madinah,Qassim,Sea,Delivered,2025-03-19,2025-03-21,74.98,15605.62
+SHP-000799,TGA,,Tabuk,Sea,Delivered,2025-03-14,2025-03-15,69.7,21169.97
+SHP-000800,SPL,Qassim,Madinah,Sea,Delivered,2025-05-27,2025-05-29,40.63,23316.34
+SHP-000801,TGA,Tabuk,Qassim,Road,Delivered,2025-04-26,2025-05-03,19.01,20072.16
+SHP-000802,SPL,Asir,Madinah,Logistics,Delayed,2025-05-19,2025-05-19,2.47,31690.41
+SHP-000803,TGA,Makkah,Riyadh,Logistics,Delivered,2025-03-21,2025-03-31,41.98,37652.65
+SHP-000804,TGA,Madinah,Asir,Sea,Delivered,2025-05-09,2025-05-09,20.0,35428.08
+SHP-000805,TGA,Tabuk,Riyadh,Road,Delivered,2025-05-29,2025-06-05,69.03,1651.53
+SHP-000806,TGA,Tabuk,Makkah,Sea,Delivered,2025-04-22,2025-04-22,78.39,27318.07
+SHP-000807,Mawani,Madinah,Qassim,Logistics,Delivered,2025-03-15,2025-03-15,13.95,30916.53
+SHP-000808,Mawani,Asir,Tabuk,Sea,Delivered,2025-03-25,2025-03-25,33.32,16548.78
+SHP-000809,Mawani,Eastern,Qassim,Sea,Delivered,2025-04-07,2025-04-07,21.91,16257.65
+SHP-000810,Mawani,Qassim,Riyadh,Road,Delivered,2025-05-22,2025-05-27,44.55,29515.55
+SHP-000811,TGA,Madinah,Qassim,Road,In Transit,2025-01-26,,7.17,31972.05
+SHP-000812,Mawani,Eastern,Qassim,Logistics,Delivered,2025-02-22,2025-02-22,36.41,549.55
+SHP-000813,Mawani,Riyadh,Jazan,Road,Delivered,2025-04-29,2025-05-01,48.03,42054.64
+SHP-000814,Mawani,Asir,Makkah,Road,In Transit,2025-04-08,,7.63,35072.25
+SHP-000815,SPL,Eastern,Tabuk,Logistics,Cancelled,2025-02-05,,75.66,31940.91
+SHP-000816,SPL,Tabuk,Tabuk,Sea,Delivered,2025-04-26,2025-04-28,73.16,7119.42
+SHP-000817,Mawani,Madinah,Jazan,Road,Delivered,2025-01-01,2025-01-08,43.28,39471.61
+SHP-000818,TGA,Jazan,Tabuk,Road,Delivered,2025-06-16,2025-06-16,66.28,18219.3
+SHP-000819,SPL,Eastern,Eastern,Logistics,Delivered,2025-02-15,2025-02-15,2.07,14416.16
+SHP-000820,TGA,Asir,Eastern,Sea,Delivered,2025-04-02,2025-04-03,78.42,48381.18
+SHP-000821,TGA,,Qassim,Sea,Delivered,2025-01-10,2025-01-12,69.66,28670.56
+SHP-000822,TGA,Madinah,Madinah,Logistics,Delivered,2025-05-07,2025-05-07,5.67,13351.41
+SHP-000823,TGA,Asir,Riyadh,Logistics,Delayed,2025-05-26,2025-05-27,54.38,30915.6
+SHP-000824,Mawani,Qassim,Riyadh,Road,Delayed,2025-06-24,2025-07-04,34.89,49757.77
+SHP-000825,SPL,Jazan,Riyadh,Logistics,Delivered,2025-03-12,2025-03-12,18.35,14257.69
+SHP-000826,Mawani,Qassim,Makkah,Logistics,Delivered,2025-04-18,2025-04-28,64.71,49518.1
+SHP-000827,Mawani,Eastern,Asir,Sea,Delayed,2025-02-27,2025-03-04,50.27,5287.94
+SHP-000828,TGA,Tabuk,Eastern,Sea,In Transit,2025-05-03,,38.15,47960.73
+SHP-000829,Mawani,Makkah,Jazan,Sea,Delivered,2025-01-14,2025-01-17,50.22,29157.26
+SHP-000830,SPL,Tabuk,Makkah,Sea,Delayed,2025-01-22,2025-01-22,5.43,40218.16
+SHP-000831,SPL,Makkah,Riyadh,Logistics,Delivered,2025-01-15,2025-01-17,4.65,42571.5
+SHP-000832,SPL,Eastern,Riyadh,Road,Delivered,2025-04-13,2025-04-13,31.02,39860.65
+SHP-000833,TGA,Riyadh,Tabuk,Logistics,Delivered,2025-06-08,2025-06-08,15.8,5583.14
+SHP-000834,Mawani,Madinah,Asir,Road,Delivered,2025-06-02,2025-06-02,33.97,36368.84
+SHP-000835,Mawani,Riyadh,Qassim,Logistics,Delivered,2025-04-24,2025-04-24,76.8,37841.49
+SHP-000836,Mawani,Jazan,Tabuk,Road,In Transit,2025-03-21,,29.82,900.05
+SHP-000837,TGA,Riyadh,Eastern,Sea,Delivered,2025-05-31,2025-05-31,51.42,10462.43
+SHP-000838,SPL,Jazan,Tabuk,Logistics,Delivered,2025-01-18,2025-01-21,45.5,17115.19
+SHP-000839,Mawani,Jazan,Riyadh,Road,Delivered,2025-03-18,2025-03-23,17.94,683.01
+SHP-000840,Mawani,Eastern,Tabuk,Logistics,Delivered,2025-02-27,2025-02-28,30.38,20315.47
+SHP-000841,SPL,Riyadh,Madinah,Road,Delivered,2025-01-02,2025-01-05,35.51,31751.06
+SHP-000842,Mawani,Eastern,Eastern,Road,Cancelled,2025-04-03,,57.65,17320.97
+SHP-000843,Mawani,Madinah,Makkah,Sea,Delivered,2025-05-22,2025-05-23,66.6,7293.55
+SHP-000844,Mawani,Asir,Tabuk,Road,Delivered,2025-06-17,2025-06-17,53.04,47087.51
+SHP-000845,Mawani,Makkah,Madinah,Sea,Delayed,2025-06-09,2025-06-14,15.74,19220.68
+SHP-000846,TGA,Eastern,Eastern,Logistics,Delivered,2025-04-06,2025-04-09,23.89,7854.06
+SHP-000847,SPL,Madinah,Jazan,Sea,Delivered,2025-03-05,2025-03-05,58.32,39340.93
+SHP-000848,SPL,Tabuk,Jazan,Sea,Delivered,2025-06-19,2025-06-19,26.08,19007.0
+SHP-000849,SPL,Jazan,Qassim,Logistics,In Transit,2025-06-27,,73.73,29407.14
+SHP-000850,Mawani,Jazan,Qassim,Sea,Delivered,2025-01-10,2025-01-11,24.83,44491.09
+SHP-000851,SPL,Asir,Madinah,Sea,Delayed,2025-05-27,2025-05-27,23.96,26181.63
+SHP-000852,TGA,Tabuk,Jazan,Road,Delivered,2025-02-28,2025-02-28,33.01,40322.97
+SHP-000853,Mawani,Jazan,Makkah,Road,Delivered,2025-03-23,2025-03-25,72.17,15078.63
+SHP-000854,Mawani,Asir,Makkah,Sea,Delivered,2025-05-09,2025-05-19,6.17,2394.93
+SHP-000855,SPL,Asir,Asir,Sea,Delivered,2025-02-21,2025-02-24,56.6,49900.79
+SHP-000856,SPL,Asir,Qassim,Road,Delivered,2025-05-20,2025-05-22,65.84,38011.4
+SHP-000857,Mawani,Qassim,Eastern,Road,Delivered,2025-01-04,2025-01-11,19.08,29556.68
+SHP-000858,SPL,Tabuk,Tabuk,Sea,In Transit,2025-05-22,,34.59,47125.52
+SHP-000859,TGA,Riyadh,Madinah,Road,Delivered,2025-04-17,2025-04-18,75.5,979.22
+SHP-000860,SPL,Qassim,Qassim,Logistics,Delivered,2025-06-18,2025-06-21,43.24,16640.94
+SHP-000861,Mawani,Tabuk,Qassim,Road,Delayed,2025-01-06,2025-01-06,16.73,19836.49
+SHP-000862,Mawani,Tabuk,Jazan,Logistics,Delivered,2025-05-17,2025-05-22,71.63,5115.45
+SHP-000863,TGA,,Eastern,Sea,Delivered,2025-01-27,2025-02-06,72.95,19601.76
+SHP-000864,TGA,Makkah,Tabuk,Logistics,Delivered,2025-02-22,2025-02-23,1.38,16675.22
+SHP-000865,Mawani,Madinah,Jazan,Logistics,Delivered,2025-04-16,2025-04-21,5.97,47777.29
+SHP-000866,SPL,Qassim,Jazan,Sea,Delayed,2025-02-22,2025-02-22,48.49,46988.14
+SHP-000867,TGA,Jazan,Riyadh,Sea,Delivered,2025-05-31,2025-06-01,35.94,41316.84
+SHP-000868,TGA,Jazan,Riyadh,Logistics,Delivered,2025-06-04,2025-06-05,7.74,32491.81
+SHP-000869,TGA,Asir,Madinah,Road,In Transit,2025-04-27,,20.31,45048.25
+SHP-000870,TGA,Madinah,Makkah,Road,Delivered,2025-04-21,2025-04-28,56.04,2661.39
+SHP-000871,TGA,Asir,Makkah,Logistics,Delayed,2025-02-10,2025-02-12,58.26,45160.62
+SHP-000872,TGA,Makkah,Makkah,Sea,Cancelled,2025-05-07,,40.6,39085.78
+SHP-000873,Mawani,Riyadh,Makkah,Logistics,Delivered,2025-04-15,2025-04-22,55.71,37611.94
+SHP-000874,Mawani,,Asir,Sea,In Transit,2025-04-08,,56.87,7255.79
+SHP-000875,Mawani,Makkah,Eastern,Logistics,Delivered,2025-06-21,2025-06-28,76.03,7442.66
+SHP-000876,Mawani,Makkah,Makkah,Logistics,Delivered,2025-03-13,2025-03-13,59.44,8838.44
+SHP-000877,Mawani,Jazan,Eastern,Logistics,Delivered,2025-06-21,2025-06-21,3.24,33914.68
+SHP-000878,TGA,Makkah,Asir,Road,Delivered,2025-02-25,2025-03-04,4.67,730.95
+SHP-000879,SPL,Eastern,Riyadh,Road,Delayed,2025-04-07,2025-04-08,2.72,1220.72
+SHP-000880,Mawani,Madinah,Riyadh,Road,Delivered,2025-02-19,2025-02-19,41.24,40873.4
+SHP-000881,TGA,Eastern,Qassim,Road,Delivered,2025-03-24,2025-04-03,10.1,11082.11
+SHP-000882,SPL,,Eastern,Road,Delivered,2025-04-02,2025-04-05,18.0,33069.1
+SHP-000883,Mawani,Qassim,Jazan,Sea,Delivered,2025-03-13,2025-03-16,57.15,39667.36
+SHP-000884,Mawani,Tabuk,Qassim,Logistics,Delivered,2025-05-26,2025-05-26,74.0,38684.62
+SHP-000885,TGA,Tabuk,Jazan,Sea,Delivered,2025-02-04,2025-02-07,27.14,30622.4
+SHP-000886,TGA,Eastern,Riyadh,Sea,Delivered,2025-05-30,2025-06-06,2.19,38067.58
+SHP-000887,SPL,Eastern,Riyadh,Sea,Delivered,2025-02-01,2025-02-03,30.27,15182.43
+SHP-000888,Mawani,Eastern,Jazan,Logistics,Delivered,2025-02-08,2025-02-13,70.25,7146.22
+SHP-000889,SPL,Asir,Eastern,Logistics,Delivered,2025-03-23,2025-03-23,26.84,12491.32
+SHP-000890,TGA,Eastern,Eastern,Logistics,Delayed,2025-05-19,2025-05-19,69.88,26312.86
+SHP-000891,Mawani,Jazan,Eastern,Sea,Delivered,2025-02-16,2025-02-23,50.93,7505.83
+SHP-000892,TGA,Eastern,Makkah,Road,Delivered,2025-02-22,2025-02-22,58.14,15917.42
+SHP-000893,TGA,Eastern,Jazan,Logistics,Delivered,2025-02-20,2025-02-21,16.51,43190.06
+SHP-000894,SPL,Qassim,Jazan,Road,Delayed,2025-05-04,2025-05-04,34.1,30665.01
+SHP-000895,SPL,Riyadh,Qassim,Sea,In Transit,2025-04-21,,60.83,46115.86
+SHP-000896,TGA,Madinah,Jazan,Road,Delivered,2025-06-02,2025-06-12,36.56,19069.77
+SHP-000897,Mawani,Jazan,Eastern,Sea,Delivered,2025-06-05,2025-06-12,1.52,25284.64
+SHP-000898,SPL,Qassim,Tabuk,Road,Delivered,2025-04-06,2025-04-13,39.42,32231.91
+SHP-000899,Mawani,Makkah,Madinah,Sea,Delivered,2025-05-31,2025-05-31,61.15,47876.3
+SHP-000900,TGA,Tabuk,Qassim,Road,In Transit,2025-03-31,,58.99,12496.47
+SHP-000901,TGA,Riyadh,Madinah,Road,Delivered,2025-01-09,2025-01-12,48.63,47241.13
+SHP-000902,TGA,,Makkah,Logistics,Delivered,2025-02-07,2025-02-09,57.07,19525.21
+SHP-000903,Mawani,Qassim,Qassim,Road,Delivered,2025-06-30,2025-06-30,55.5,25282.02
+SHP-000904,TGA,Qassim,Makkah,Sea,Delivered,2025-05-17,2025-05-22,51.08,38946.21
+SHP-000905,Mawani,Qassim,Riyadh,Sea,Delivered,2025-03-30,2025-03-30,65.4,578.14
+SHP-000906,TGA,Asir,Madinah,Sea,Delivered,2025-01-18,2025-01-23,30.28,35350.34
+SHP-000907,Mawani,Jazan,Eastern,Sea,Delivered,2025-02-20,2025-02-27,16.47,37620.83
+SHP-000908,SPL,Jazan,Makkah,Logistics,Cancelled,2025-02-19,,13.71,15009.72
+SHP-000909,SPL,Riyadh,Jazan,Road,Delivered,2025-04-07,2025-04-07,53.99,5490.05
+SHP-000910,Mawani,Riyadh,Riyadh,Road,In Transit,2025-01-16,,48.44,49351.39
+SHP-000911,SPL,Qassim,Tabuk,Road,Delivered,2025-03-10,2025-03-17,65.44,47079.06
+SHP-000912,Mawani,Tabuk,Makkah,Sea,Delivered,2025-06-20,2025-06-25,36.83,35066.26
+SHP-000913,TGA,Asir,Eastern,Road,Delivered,2025-02-05,2025-02-05,36.43,34466.15
+SHP-000914,Mawani,Riyadh,Tabuk,Sea,Delivered,2025-05-02,2025-05-12,50.89,43735.01
+SHP-000915,SPL,Qassim,Makkah,Road,Delivered,2025-03-25,2025-04-01,34.52,46608.43
+SHP-000916,SPL,Eastern,Riyadh,Sea,In Transit,2025-05-02,,40.09,4810.95
+SHP-000917,SPL,Madinah,Makkah,Road,Cancelled,2025-06-22,,53.18,12424.63
+SHP-000918,TGA,Makkah,Riyadh,Sea,In Transit,2025-02-24,,74.36,16661.79
+SHP-000919,SPL,Jazan,Makkah,Logistics,Delivered,2025-04-09,2025-04-11,11.29,26959.89
+SHP-000920,SPL,Eastern,Makkah,Logistics,In Transit,2025-05-06,,27.79,45553.27
+SHP-000921,SPL,Eastern,Makkah,Road,Delayed,2025-04-08,2025-04-18,7.47,4912.4
+SHP-000922,Mawani,Tabuk,Tabuk,Road,In Transit,2025-06-01,,46.36,583.09
+SHP-000923,SPL,Qassim,Tabuk,Logistics,Delivered,2025-01-16,2025-01-26,74.75,6752.21
+SHP-000924,Mawani,Jazan,Asir,Sea,Delivered,2025-06-19,2025-06-20,40.24,23061.33
+SHP-000925,TGA,Riyadh,Asir,Logistics,Delivered,2025-06-03,2025-06-05,79.23,6611.47
+SHP-000926,Mawani,Jazan,Qassim,Sea,Delivered,2025-06-30,2025-07-07,78.5,16990.66
+SHP-000927,Mawani,Madinah,Qassim,Road,In Transit,2025-02-23,,78.76,33132.89
+SHP-000928,SPL,Qassim,Tabuk,Road,Delivered,2025-02-10,2025-02-10,31.59,26628.3
+SHP-000929,Mawani,Qassim,Tabuk,Logistics,Delivered,2025-03-14,2025-03-16,69.34,3179.1
+SHP-000930,TGA,Madinah,Jazan,Road,Delivered,2025-03-19,2025-03-26,71.83,10883.43
+SHP-000931,TGA,Makkah,Madinah,Road,Delivered,2025-02-20,2025-02-20,76.06,21642.0
+SHP-000932,SPL,Madinah,Makkah,Logistics,Delivered,2025-02-13,2025-02-13,52.18,29872.92
+SHP-000933,Mawani,Eastern,Asir,Logistics,Delivered,2025-02-08,2025-02-13,47.89,9038.11
+SHP-000934,TGA,Qassim,Jazan,Road,In Transit,2025-04-07,,1.42,6273.07
+SHP-000935,TGA,,Jazan,Road,Delivered,2025-02-01,2025-02-08,55.65,5180.39
+SHP-000936,TGA,Qassim,Madinah,Sea,Delivered,2025-06-01,2025-06-01,26.36,35831.52
+SHP-000937,TGA,Riyadh,Jazan,Sea,Delivered,2025-05-18,2025-05-18,41.75,29443.72
+SHP-000938,Mawani,Makkah,Madinah,Sea,In Transit,2025-06-16,,44.6,40125.39
+SHP-000939,Mawani,Madinah,Asir,Sea,Delivered,2025-02-01,2025-02-01,7.23,6673.5
+SHP-000940,Mawani,Qassim,Riyadh,Sea,Delayed,2025-03-18,2025-03-21,24.4,47337.62
+SHP-000941,SPL,Madinah,Tabuk,Logistics,Delivered,2025-05-13,2025-05-15,72.91,49841.46
+SHP-000942,TGA,Makkah,Riyadh,Sea,Delivered,2025-06-05,2025-06-15,3.42,7512.53
+SHP-000943,Mawani,Tabuk,Qassim,Sea,Delivered,2025-02-25,2025-02-25,44.21,13403.38
+SHP-000944,Mawani,Asir,Madinah,Logistics,Delivered,2025-06-16,2025-06-16,16.7,31663.63
+SHP-000945,TGA,Madinah,Madinah,Road,In Transit,2025-03-10,,79.4,21964.54
+SHP-000946,Mawani,Makkah,Qassim,Sea,Delivered,2025-01-07,2025-01-08,26.68,4904.22
+SHP-000947,Mawani,,Qassim,Sea,Delivered,2025-03-27,2025-03-29,30.6,5697.64
+SHP-000948,SPL,Jazan,Tabuk,Logistics,Delivered,2025-02-01,2025-02-01,45.99,14458.84
+SHP-000949,Mawani,Tabuk,Qassim,Sea,Delayed,2025-03-11,2025-03-11,27.94,37194.21
+SHP-000950,SPL,Jazan,Asir,Sea,Delivered,2025-05-17,2025-05-27,55.09,35804.52
+SHP-000951,TGA,Asir,Tabuk,Logistics,Delivered,2025-06-18,2025-06-18,62.31,34071.65
+SHP-000952,SPL,Jazan,Asir,Road,Delivered,2025-04-18,2025-04-25,41.89,36064.11
+SHP-000953,Mawani,Asir,Tabuk,Sea,Delivered,2025-02-28,2025-03-02,50.96,4296.31
+SHP-000954,Mawani,Makkah,Jazan,Sea,Delivered,2025-03-03,2025-03-03,76.99,21487.19
+SHP-000955,TGA,Makkah,Eastern,Logistics,Delivered,2025-05-11,2025-05-11,1.08,21536.46
+SHP-000956,TGA,Riyadh,Madinah,Logistics,Delivered,2025-05-17,2025-05-20,74.45,38303.67
+SHP-000957,Mawani,Tabuk,Qassim,Road,Delivered,2025-02-27,2025-02-27,30.64,18977.54
+SHP-000958,Mawani,Makkah,Jazan,Road,Delayed,2025-01-29,2025-02-01,21.55,610.6
+SHP-000959,SPL,Riyadh,Jazan,Sea,Delivered,2025-06-11,2025-06-16,28.78,30968.75
+SHP-000960,Mawani,Tabuk,Madinah,Road,Delivered,2025-03-26,2025-03-28,28.69,5516.22
+SHP-000961,TGA,Madinah,Jazan,Sea,Delivered,2025-05-06,2025-05-07,12.87,33003.36
+SHP-000962,SPL,Tabuk,Madinah,Logistics,Delivered,2025-02-27,2025-03-06,65.02,5880.4
+SHP-000963,SPL,,Eastern,Sea,Delivered,2025-04-23,2025-04-30,15.57,2492.69
+SHP-000964,Mawani,Madinah,Jazan,Logistics,In Transit,2025-04-12,,78.64,6380.22
+SHP-000965,TGA,Madinah,Qassim,Logistics,Delivered,2025-05-06,2025-05-16,58.22,37223.71
+SHP-000966,Mawani,Riyadh,Tabuk,Logistics,Delivered,2025-04-10,2025-04-10,1.59,34379.66
+SHP-000967,TGA,Riyadh,Asir,Road,Delivered,2025-01-14,2025-01-17,39.13,38164.54
+SHP-000968,Mawani,Eastern,Makkah,Road,In Transit,2025-03-05,,79.54,12744.04
+SHP-000969,Mawani,Madinah,Madinah,Sea,Delivered,2025-04-20,2025-04-21,10.08,20363.52
+SHP-000970,SPL,Riyadh,Makkah,Sea,Delayed,2025-03-12,2025-03-13,30.74,26486.07
+SHP-000971,SPL,Jazan,Qassim,Logistics,Delivered,2025-06-29,2025-06-30,4.61,5947.72
+SHP-000972,TGA,Qassim,Riyadh,Sea,Delayed,2025-04-04,2025-04-06,3.75,3080.47
+SHP-000973,SPL,Makkah,Asir,Road,Delivered,2025-03-24,2025-03-25,29.4,15565.66
+SHP-000974,Mawani,Tabuk,Tabuk,Logistics,Delivered,2025-01-25,2025-01-25,62.42,26678.67
+SHP-000975,Mawani,Qassim,Makkah,Sea,Delivered,2025-04-06,2025-04-07,50.55,30290.84
+SHP-000976,SPL,Makkah,Tabuk,Road,Delivered,2025-01-11,2025-01-12,58.17,49487.41
+SHP-000977,Mawani,Madinah,Asir,Logistics,In Transit,2025-02-21,,78.02,44798.19
+SHP-000978,Mawani,Jazan,Riyadh,Sea,Delayed,2025-04-25,2025-04-25,48.13,34986.96
+SHP-000979,TGA,Riyadh,Eastern,Logistics,Delivered,2025-02-03,2025-02-05,65.26,25003.78
+SHP-000980,Mawani,Jazan,Qassim,Logistics,Cancelled,2025-05-17,,62.46,20342.02
+SHP-000981,Mawani,Eastern,Riyadh,Logistics,Delivered,2025-03-11,2025-03-12,36.71,35533.82
+SHP-000982,Mawani,Asir,Makkah,Sea,Delivered,2025-05-15,2025-05-17,18.3,26911.51
+SHP-000983,SPL,Madinah,Riyadh,Logistics,Delivered,2025-03-16,2025-03-16,78.41,49482.05
+SHP-000984,TGA,Tabuk,Tabuk,Road,Delivered,2025-02-23,2025-03-05,7.12,35420.36
+SHP-000985,SPL,Asir,Riyadh,Logistics,In Transit,2025-05-21,,65.37,41284.62
+SHP-000986,Mawani,Makkah,Qassim,Logistics,Delivered,2025-02-26,2025-02-28,20.96,31498.37
+SHP-000987,SPL,Eastern,Eastern,Logistics,Delivered,2025-06-04,2025-06-14,50.57,42981.96
+SHP-000988,TGA,Qassim,Jazan,Sea,Delivered,2025-04-12,2025-04-12,39.93,23239.81
+SHP-000989,TGA,Madinah,Riyadh,Road,Delivered,2025-02-15,2025-02-16,13.45,9297.85
+SHP-000990,Mawani,Qassim,Qassim,Sea,Delivered,2025-04-11,2025-04-12,58.08,7295.92
+SHP-000991,Mawani,Makkah,Riyadh,Sea,Delivered,2025-01-04,2025-01-04,20.24,4637.98
+SHP-000992,Mawani,Makkah,Tabuk,Logistics,In Transit,2025-02-06,,7.25,7391.89
+SHP-000993,SPL,Tabuk,Eastern,Sea,In Transit,2025-05-25,,43.71,13739.1
+SHP-000994,Mawani,Makkah,Makkah,Logistics,Delivered,2025-05-20,2025-05-20,70.97,21056.59
+SHP-000995,SPL,Qassim,Asir,Sea,Delivered,2025-01-01,2025-01-02,73.77,34378.66
+SHP-000996,Mawani,Eastern,Asir,Road,Delivered,2025-06-25,2025-06-25,6.57,17019.38
+SHP-000997,TGA,Madinah,Tabuk,Logistics,Delayed,2025-04-03,2025-04-03,14.92,21549.61
+SHP-000998,SPL,Tabuk,Asir,Road,Delivered,2025-06-20,2025-06-22,53.11,46677.65
+SHP-000999,Mawani,Madinah,Qassim,Road,Delayed,2025-01-20,2025-01-20,57.85,39384.53
