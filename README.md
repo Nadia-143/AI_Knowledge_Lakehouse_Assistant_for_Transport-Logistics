@@ -12,7 +12,7 @@
 | 4. Airflow DAG end-to-end orchestration | `dags/ai_knowledge_lakehouse_dag.py` |
 | 5. Great Expectations quality gate + OpenLineage events | `src/quality/great_expectations_checks.py` + `src/quality/openlineage_emit.py` |
 
-## 100% Features
+## Features
 
 - Real embeddings using `sentence-transformers/all-MiniLM-L6-v2`.
 - FAISS vector index for semantic retrieval.
