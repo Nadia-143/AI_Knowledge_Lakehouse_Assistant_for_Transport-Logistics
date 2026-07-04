@@ -513,7 +513,7 @@ with left:
     st.markdown("""
 <div class="team-box">
 <div class="team-chip">Nadia Alghamdi</div>
-<div class="team-chip">Ebtisam Alzahrani</div>
+<div class="team-chip">Ebtisam Mohammed Alzahrani</div>
 <div class="team-chip">Manar ALmutairi</div>
 
 </div>
