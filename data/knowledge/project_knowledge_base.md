@@ -407,7 +407,7 @@ In this project, the main design is a Lakehouse architecture. Snowflake can be a
 This project demonstrates an integrated AI data platform for the transport and logistics sector.
 It combines data engineering, Lakehouse architecture, schema validation, data quality, optional streaming, orchestration, lineage, RAG, and a Streamlit-based AI assistant.
 The assistant is grounded in indexed project knowledge and should only answer based on available sources.
-cat > data/knowledge/project_knowledge_base.md <<'EOF'
+
 
 
 ## وصف البيانات
