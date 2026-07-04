@@ -44,13 +44,13 @@ docker compose up -d kafka zookeeper
 python src/ingestion/kafka_producer.py --dataset shipments
 python src/ingestion/kafka_consumer_to_bronze.py --topic logistics.shipments
 ```
-<p align="center">
-  <img src="assets/assistant-preview.png" />
-</p>
+
 
 ## AI Assistant Streamlit & some Demo Questions
 
- (assets/assistant-preview.png) [واجهة المساعد الذكي]!
+<p align="center">
+  <img src="assets/assistant-preview.png.png" />
+</p>
 
 
 - ما هو SLA الخاص بتحديث بيانات الشحنات؟
