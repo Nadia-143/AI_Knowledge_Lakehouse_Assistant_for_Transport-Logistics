@@ -168,7 +168,7 @@ answer_safe = html.escape(latest_answer).replace("\n", "<br>")
 TEAM = [
    "نادية الغامدي",
    "  ابتسام محمد الزهراني ",
-   "ريناد المطيري"
+   "منار المطيري"
 ]
 DATA_SOURCES = [
    "بيانات الشحنات",
